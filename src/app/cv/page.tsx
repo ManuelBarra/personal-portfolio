@@ -34,6 +34,24 @@ const UI: Record<Locale, Record<string, string>> = {
     parallel: 'parallel',
     visit: 'Link',
   },
+  ca: {
+    summary: 'Resum',
+    experience: 'Experiència',
+    education: 'Educació',
+    trainingInProgress: 'Formació en curs · 2026',
+    skills: 'Habilitats',
+    projects: 'Projectes destacats',
+    languages: 'Idiomes',
+    certifications: 'Certificacions',
+    present: 'Actualitat',
+    parallel: 'en paral·lel',
+    visit: 'Enllaç',
+  },
+}
+
+function parseLocale(lang: string | undefined): Locale {
+  if (lang === 'en' || lang === 'ca') return lang
+  return 'es'
 }
 
 function formatDate(date: string | null, current: boolean, present: string): string {
@@ -47,10 +65,10 @@ export async function generateMetadata(
   { searchParams }: { searchParams: Promise<{ lang?: string }> }
 ): Promise<Metadata> {
   const { lang } = await searchParams
-  const locale: Locale = lang === 'en' ? 'en' : 'es'
-  const title = locale === 'es'
-    ? `CV — ${resume.personal.firstName} ${resume.personal.lastName}`
-    : `Resume — ${resume.personal.firstName} ${resume.personal.lastName}`
+  const locale = parseLocale(lang)
+  const title = locale === 'en'
+    ? `Resume — ${resume.personal.firstName} ${resume.personal.lastName}`
+    : `CV — ${resume.personal.firstName} ${resume.personal.lastName}`
   return {
     title,
     description: t(resume.personal.bio, locale),
@@ -62,7 +80,7 @@ export default async function CvPage(
   { searchParams }: { searchParams: Promise<{ lang?: string }> }
 ) {
   const { lang } = await searchParams
-  const locale: Locale = lang === 'en' ? 'en' : 'es'
+  const locale = parseLocale(lang)
   const ui = UI[locale]
   const { personal, experience, education, skills, projects } = resume
 

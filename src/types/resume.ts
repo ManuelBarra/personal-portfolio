@@ -1,8 +1,9 @@
-export type Locale = 'es' | 'en'
+export type Locale = 'es' | 'en' | 'ca'
 
 export interface LocalizedText {
   es: string
   en: string
+  ca: string
 }
 
 export interface ResumeMetadata {

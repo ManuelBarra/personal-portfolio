@@ -1,6 +1,6 @@
 'use client'
 
-import type { ResumeEducation } from '@/types/resume'
+import type { ResumeEducation, Locale } from '@/types/resume'
 import { useLocale, t } from '@/hooks/useLocale'
 
 interface EducationRoomProps {
@@ -14,7 +14,7 @@ function formatDate(date: string | null, current: boolean): string {
   return `${months[parseInt(month) - 1]} ${year}`
 }
 
-function EduCard({ edu, locale }: { edu: ResumeEducation; locale: 'es' | 'en' }) {
+function EduCard({ edu, locale }: { edu: ResumeEducation; locale: Locale }) {
   return (
     <div className={`edu-card${edu.status ? ' edu-card--planned' : ''}`}>
       <div className="edu-card__date">
@@ -47,7 +47,7 @@ export function EducationRoom({ education }: EducationRoomProps) {
         {planned.length > 0 && (
           <>
             <div className="edu-grid__subhead">
-              {locale === 'es' ? 'Formación en curso · 2026' : 'In-progress training · 2026'}
+              {t({ es: 'Formación en curso · 2026', en: 'In-progress training · 2026', ca: 'Formació en curs · 2026' }, locale)}
             </div>
             {planned.map((edu) => (
               <EduCard key={edu.id} edu={edu} locale={locale} />

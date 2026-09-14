@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "6.0",
+    "version": "6.1",
     "lastUpdated": "2026-09-14",
     "author": "Manuel Barra Lazo"
   },
@@ -9,11 +9,13 @@
     "lastName": "Barra Lazo",
     "title": {
       "es": "Frontend Web Developer & AI Integrator",
-      "en": "Frontend Web Developer & AI Integrator"
+      "en": "Frontend Web Developer & AI Integrator",
+      "ca": "Frontend Web Developer & AI Integrator"
     },
     "tagline": {
       "es": "5+ años como desarrollador Frontend en JavaScript y su ecosistema, con un salto reciente a integrar IA generativa en el flujo de trabajo de equipos de producto.",
-      "en": "5+ years as a Frontend developer in JavaScript and its ecosystem, with a recent leap into integrating generative AI into product teams' workflows."
+      "en": "5+ years as a Frontend developer in JavaScript and its ecosystem, with a recent leap into integrating generative AI into product teams' workflows.",
+      "ca": "5+ anys com a desenvolupador Frontend en JavaScript i el seu ecosistema, amb un salt recent a integrar IA generativa en el flux de treball d'equips de producte."
     },
     "location": "Barcelona, España",
     "avatar": "/avatar.png",
@@ -21,20 +23,24 @@
     "phone": "+34 634 008 260",
     "bio": {
       "es": "Llevo más de 5 años como desarrollador Frontend, moviéndome sobre todo entre JavaScript y sus frameworks (React.js, Vue.js, Next.js), con paso también por PHP y WordPress, usando Git y GitHub en el día a día. En mi último proyecto lideré la migración de dos webs corporativas a Next.js/React, logrando 100% en Lighthouse, y di el salto a integrar IA generativa en el flujo de trabajo de un equipo de marketing de 7 personas, de ahí que ahora me defina también como AI Integrator. Si algo se repite en todos estos años es la facilidad para adaptarme a equipos y metodologías distintas y responder bien pase lo que pase.",
-      "en": "I've spent more than 5 years as a Frontend developer, working mainly across JavaScript and its frameworks (React.js, Vue.js, Next.js), with some time in PHP and WordPress too, using Git and GitHub daily. In my last project I led the migration of two corporate websites to Next.js/React, reaching 100% on Lighthouse, and made the leap into integrating generative AI into the workflow of a 7-person marketing team — which is why I now also describe myself as an AI Integrator. If there's one thing that's stayed constant through all these years, it's how easily I adapt to different teams and methodologies and keep delivering no matter what changes."
+      "en": "I've spent more than 5 years as a Frontend developer, working mainly across JavaScript and its frameworks (React.js, Vue.js, Next.js), with some time in PHP and WordPress too, using Git and GitHub daily. In my last project I led the migration of two corporate websites to Next.js/React, reaching 100% on Lighthouse, and made the leap into integrating generative AI into the workflow of a 7-person marketing team — which is why I now also describe myself as an AI Integrator. If there's one thing that's stayed constant through all these years, it's how easily I adapt to different teams and methodologies and keep delivering no matter what changes.",
+      "ca": "Porto més de 5 anys com a desenvolupador Frontend, movent-me sobretot entre JavaScript i els seus frameworks (React.js, Vue.js, Next.js), amb pas també per PHP i WordPress, fent servir Git i GitHub en el dia a dia. En el meu últim projecte vaig liderar la migració de dues webs corporatives a Next.js/React, aconseguint el 100% a Lighthouse, i vaig fer el salt a integrar IA generativa en el flux de treball d'un equip de màrqueting de 7 persones, d'aquí que ara em defineixi també com a AI Integrator. Si hi ha alguna cosa que es repeteix en tots aquests anys és la facilitat per adaptar-me a equips i metodologies diferents i respondre bé passi el que passi."
       },
     "about": [
       {
         "es": "Desarrollador Frontend con más de 5 años de experiencia en JavaScript y su ecosistema de frameworks (React.js, Vue.js, Next.js), con paso también por PHP y WordPress, usando Git y GitHub en el día a día — desde el desarrollo end-to-end de plataformas digitales completas hasta el mantenimiento de sitios corporativos multi-país.",
-        "en": "Frontend developer with 5+ years of experience in JavaScript and its ecosystem of frameworks (React.js, Vue.js, Next.js), with some time in PHP and WordPress too, using Git and GitHub daily — from end-to-end development of full digital platforms to maintaining multi-country corporate sites."
+        "en": "Frontend developer with 5+ years of experience in JavaScript and its ecosystem of frameworks (React.js, Vue.js, Next.js), with some time in PHP and WordPress too, using Git and GitHub daily — from end-to-end development of full digital platforms to maintaining multi-country corporate sites.",
+        "ca": "Desenvolupador Frontend amb més de 5 anys d'experiència en JavaScript i el seu ecosistema de frameworks (React.js, Vue.js, Next.js), amb pas també per PHP i WordPress, fent servir Git i GitHub en el dia a dia — des del desenvolupament end-to-end de plataformes digitals completes fins al manteniment de llocs corporatius multi-país."
       },
       {
         "es": "En mi última etapa como dedicación principal lideré la migración de dos webs corporativas de WordPress a Next.js/React, logrando 100% en Lighthouse, y di el salto a integrar IA generativa en el flujo de trabajo de un equipo de marketing de 7 personas — de ahí que ahora me defina también como AI Integrator.",
-        "en": "In my last full-time role I led the migration of two corporate websites from WordPress to Next.js/React, reaching 100% on Lighthouse, and made the leap into integrating generative AI into the workflow of a 7-person marketing team — which is why I now also describe myself as an AI Integrator."
+        "en": "In my last full-time role I led the migration of two corporate websites from WordPress to Next.js/React, reaching 100% on Lighthouse, and made the leap into integrating generative AI into the workflow of a 7-person marketing team — which is why I now also describe myself as an AI Integrator.",
+        "ca": "En la meva última etapa com a dedicació principal vaig liderar la migració de dues webs corporatives de WordPress a Next.js/React, aconseguint el 100% a Lighthouse, i vaig fer el salt a integrar IA generativa en el flux de treball d'un equip de màrqueting de 7 persones — d'aquí que ara em defineixi també com a AI Integrator."
       },
       {
         "es": "Ahora mismo desarrollo en solitario Hip Hop 4 Life, una plataforma educativa de cultura hip hop, canalizada a través de SADATA (consultora de BI e IA). Si algo se repite en todos estos años es la facilidad para adaptarme a equipos y metodologías distintas y responder bien pase lo que pase.",
-        "en": "Right now I'm developing Hip Hop 4 Life on my own, an educational platform for hip hop culture, channeled through SADATA (a BI and AI consultancy). If there's one thing that's stayed constant through all these years, it's how easily I adapt to different teams and methodologies and keep delivering no matter what changes."
+        "en": "Right now I'm developing Hip Hop 4 Life on my own, an educational platform for hip hop culture, channeled through SADATA (a BI and AI consultancy). If there's one thing that's stayed constant through all these years, it's how easily I adapt to different teams and methodologies and keep delivering no matter what changes.",
+        "ca": "Ara mateix desenvolupo en solitari Hip Hop 4 Life, una plataforma educativa de cultura hip hop, canalitzada a través de SADATA (consultora de BI i IA). Si hi ha alguna cosa que es repeteix en tots aquests anys és la facilitat per adaptar-me a equips i metodologies diferents i respondre bé passi el que passi."
       }
     ],
     "links": {
@@ -43,16 +49,16 @@
       "website": "malb.dev"
     },
     "languages": [
-      { "name": "Español", "level": { "es": "Nativo", "en": "Native" } },
-      { "name": "Inglés", "level": { "es": "Avanzado", "en": "Advanced" } }
+      { "name": "Español", "level": { "es": "Nativo", "en": "Native", "ca": "Natiu" } },
+      { "name": "Inglés", "level": { "es": "Avanzado", "en": "Advanced", "ca": "Avançat" } }
     ],
     "interests": [
-      { "es": "Música", "en": "Music" },
-      { "es": "Baloncesto", "en": "Basketball" },
-      { "es": "Kettlebell", "en": "Kettlebell" }
+      { "es": "Música", "en": "Music", "ca": "Música" },
+      { "es": "Baloncesto", "en": "Basketball", "ca": "Bàsquet" },
+      { "es": "Kettlebell", "en": "Kettlebell", "ca": "Kettlebell" }
     ],
     "certifications": [
-      { "es": "Fundamentos del desarrollo web: Full Stack o Front-end", "en": "Web development fundamentals: Full Stack or Front-end" }
+      { "es": "Fundamentos del desarrollo web: Full Stack o Front-end", "en": "Web development fundamentals: Full Stack or Front-end", "ca": "Fonaments del desenvolupament web: Full Stack o Front-end" }
     ]
   },
   "experience": [
@@ -61,7 +67,8 @@
       "company": "Hip Hop 4 Life",
       "position": {
         "es": "Full Stack Developer",
-        "en": "Full Stack Developer"
+        "en": "Full Stack Developer",
+        "ca": "Full Stack Developer"
       },
       "startDate": "2026-06",
       "endDate": null,
@@ -69,7 +76,8 @@
       "location": "Remoto",
       "description": {
         "es": "Desarrollo en solitario Hip Hop 4 Life, una plataforma educativa de cultura hip hop, canalizado a través de SADATA (consultora de BI e IA). La plataforma ofrece rutas de aprendizaje por disciplina (MCing, DJing, Breaking, Graffiti, Knowledge, Producción), progresión gamificada por XP y herramientas de práctica como el Bar Counter, que analiza sílabas por verso y esquema de rima.",
-        "en": "Solo developer of Hip Hop 4 Life, an educational platform for hip hop culture, channeled through SADATA (a BI and AI consultancy). The platform offers learning paths by discipline (MCing, DJing, Breaking, Graffiti, Knowledge, Production), gamified XP progression and practice tools like the Bar Counter, which analyzes syllables per bar and rhyme scheme."
+        "en": "Solo developer of Hip Hop 4 Life, an educational platform for hip hop culture, channeled through SADATA (a BI and AI consultancy). The platform offers learning paths by discipline (MCing, DJing, Breaking, Graffiti, Knowledge, Production), gamified XP progression and practice tools like the Bar Counter, which analyzes syllables per bar and rhyme scheme.",
+        "ca": "Desenvolupo en solitari Hip Hop 4 Life, una plataforma educativa de cultura hip hop, canalitzat a través de SADATA (consultora de BI i IA). La plataforma ofereix rutes d'aprenentatge per disciplina (MCing, DJing, Breaking, Graffiti, Knowledge, Producció), progressió gamificada per XP i eines de pràctica com el Bar Counter, que analitza síl·labes per vers i esquema de rima."
       },
       "technologies": [
         "Next.js",
@@ -81,15 +89,18 @@
       "highlights": [
         {
           "es": "Desarrollo full-stack en solitario: Next.js/React en el frontend y Node.js en el backend, integrando APIs de IA generativa (SDK de Anthropic) para las funcionalidades de análisis y contenido",
-          "en": "Solo full-stack development: Next.js/React on the frontend and Node.js on the backend, integrating generative AI APIs (Anthropic SDK) for the analysis and content features"
+          "en": "Solo full-stack development: Next.js/React on the frontend and Node.js on the backend, integrating generative AI APIs (Anthropic SDK) for the analysis and content features",
+          "ca": "Desenvolupament full-stack en solitari: Next.js/React al frontend i Node.js al backend, integrant APIs d'IA generativa (SDK d'Anthropic) per a les funcionalitats d'anàlisi i contingut"
         },
         {
           "es": "Rutas de aprendizaje gamificadas por disciplina y herramientas de práctica propias como el Bar Counter (análisis de sílabas y rima por verso)",
-          "en": "Gamified learning paths by discipline and custom practice tools like the Bar Counter (syllable and rhyme analysis per bar)"
+          "en": "Gamified learning paths by discipline and custom practice tools like the Bar Counter (syllable and rhyme analysis per bar)",
+          "ca": "Rutes d'aprenentatge gamificades per disciplina i eines de pràctica pròpies com el Bar Counter (anàlisi de síl·labes i rima per vers)"
         },
         {
           "es": "Canalizado a través de SADATA, la consultora de BI e IA que cofundé, como el primero de los proyectos propios que iré sumando bajo ese mismo paraguas",
-          "en": "Channeled through SADATA, the BI and AI consultancy I co-founded, as the first of my own projects to be added under that same umbrella"
+          "en": "Channeled through SADATA, the BI and AI consultancy I co-founded, as the first of my own projects to be added under that same umbrella",
+          "ca": "Canalitzat a través de SADATA, la consultora de BI i IA que vaig cofundar, com el primer dels projectes propis que aniré sumant sota aquest mateix paraigua"
         }
       ]
     },
@@ -98,7 +109,8 @@
       "company": "Genomcore",
       "position": {
         "es": "Frontend Web Developer & AI Integrator",
-        "en": "Frontend Web Developer & AI Integrator"
+        "en": "Frontend Web Developer & AI Integrator",
+        "ca": "Frontend Web Developer & AI Integrator"
       },
       "startDate": "2025-01",
       "endDate": "2026-07",
@@ -106,7 +118,8 @@
       "location": "Barcelona, España",
       "description": {
         "es": "Dedicación principal. Desarrollo y mantenimiento de las webs corporativas genomcore.com y madeofgenes.ai. Rediseño de ambas con temas de WordPress a medida y posterior migración completa a Next.js con contenido estático en Markdown, alcanzando 100% en Lighthouse en todas las métricas. Integración de soluciones de IA generativa en el flujo de trabajo del equipo de marketing (7 personas) y desarrollo de un marketplace interno de herramientas/skills.",
-        "en": "Main role. Developed and maintained the corporate sites genomcore.com and madeofgenes.ai. Redesigned both with custom WordPress themes, then led their full migration to Next.js with static Markdown content, reaching 100% on every Lighthouse metric. Integrated generative AI solutions into the marketing team's workflow (7 people) and built an internal marketplace of tools/skills."
+        "en": "Main role. Developed and maintained the corporate sites genomcore.com and madeofgenes.ai. Redesigned both with custom WordPress themes, then led their full migration to Next.js with static Markdown content, reaching 100% on every Lighthouse metric. Integrated generative AI solutions into the marketing team's workflow (7 people) and built an internal marketplace of tools/skills.",
+        "ca": "Dedicació principal. Desenvolupament i manteniment de les webs corporatives genomcore.com i madeofgenes.ai. Redisseny d'ambdues amb temes de WordPress a mida i posterior migració completa a Next.js amb contingut estàtic en Markdown, aconseguint el 100% a Lighthouse en totes les mètriques. Integració de solucions d'IA generativa en el flux de treball de l'equip de màrqueting (7 persones) i desenvolupament d'un marketplace intern d'eines/skills."
       },
       "technologies": [
         "Next.js",
@@ -120,15 +133,18 @@
       "highlights": [
         {
           "es": "Rediseñé ambas webs con temas de WordPress a medida (junto a un diseñador) y lideré su migración completa a Next.js/Markdown, alcanzando el 100% en todas las métricas de Lighthouse — ciclo completo de construcción y modernización, no solo migración de código heredado",
-          "en": "Redesigned both sites with custom WordPress themes (alongside a designer) and led their full migration to Next.js/Markdown, reaching 100% on every Lighthouse metric — a complete build-and-modernize cycle, not just a legacy code migration"
+          "en": "Redesigned both sites with custom WordPress themes (alongside a designer) and led their full migration to Next.js/Markdown, reaching 100% on every Lighthouse metric — a complete build-and-modernize cycle, not just a legacy code migration",
+          "ca": "Vaig redissenyar totes dues webs amb temes de WordPress a mida (juntament amb un dissenyador) i vaig liderar la seva migració completa a Next.js/Markdown, aconseguint el 100% en totes les mètriques de Lighthouse — cicle complet de construcció i modernització, no només migració de codi heretat"
         },
         {
           "es": "Usé Claude Code como herramienta de desarrollo asistido por IA para acelerar y estructurar la migración de código legado",
-          "en": "Used Claude Code as an AI-assisted development tool to speed up and structure the legacy code migration"
+          "en": "Used Claude Code as an AI-assisted development tool to speed up and structure the legacy code migration",
+          "ca": "Vaig fer servir Claude Code com a eina de desenvolupament assistit per IA per accelerar i estructurar la migració de codi heretat"
         },
         {
           "es": "Integré soluciones de IA generativa sobre Gemini en el flujo de trabajo del equipo de marketing (7 personas) y desarrollé un marketplace interno de herramientas/skills",
-          "en": "Integrated Gemini-based generative AI solutions into the marketing team's workflow (7 people) and built an internal marketplace of tools/skills"
+          "en": "Integrated Gemini-based generative AI solutions into the marketing team's workflow (7 people) and built an internal marketplace of tools/skills",
+          "ca": "Vaig integrar solucions d'IA generativa sobre Gemini en el flux de treball de l'equip de màrqueting (7 persones) i vaig desenvolupar un marketplace intern d'eines/skills"
         }
       ]
     },
@@ -137,7 +153,8 @@
       "company": "BDI",
       "position": {
         "es": "Frontend Developer (freelance, paralelo)",
-        "en": "Frontend Developer (freelance, parallel)"
+        "en": "Frontend Developer (freelance, parallel)",
+        "ca": "Frontend Developer (freelance, paral·lel)"
       },
       "startDate": "2025-01",
       "endDate": "2026-01",
@@ -146,7 +163,8 @@
       "location": "Remoto",
       "description": {
         "es": "Freelance, en paralelo a mi puesto en Genomcore. Diseño y documentación del PRD de \"Source Contacts\", funcionalidad de búsqueda y captación de prospectos integrada con la API de Wiza, y desarrollo del frontend correspondiente dentro de un equipo MERN.",
-        "en": "Freelance, in parallel to my role at Genomcore. Designed and documented the PRD for \"Source Contacts\", a prospect search and outreach feature integrated with the Wiza API, and built the corresponding frontend within a MERN team."
+        "en": "Freelance, in parallel to my role at Genomcore. Designed and documented the PRD for \"Source Contacts\", a prospect search and outreach feature integrated with the Wiza API, and built the corresponding frontend within a MERN team.",
+        "ca": "Freelance, en paral·lel al meu lloc a Genomcore. Disseny i documentació del PRD de \"Source Contacts\", funcionalitat de cerca i captació de prospectes integrada amb l'API de Wiza, i desenvolupament del frontend corresponent dins d'un equip MERN."
       },
       "technologies": [
         "MongoDB",
@@ -157,15 +175,18 @@
       "highlights": [
         {
           "es": "Diseñé el PRD completo de \"Source Contacts\" y el sistema de filtros multidimensional (puesto, ubicación, empresa, sector...) sobre la base de datos de Wiza",
-          "en": "Designed the full \"Source Contacts\" PRD and the multi-dimensional filter system (role, location, company, sector...) over Wiza's database"
+          "en": "Designed the full \"Source Contacts\" PRD and the multi-dimensional filter system (role, location, company, sector...) over Wiza's database",
+          "ca": "Vaig dissenyar el PRD complet de \"Source Contacts\" i el sistema de filtres multidimensional (càrrec, ubicació, empresa, sector...) sobre la base de dades de Wiza"
         },
         {
           "es": "Construí el flujo de búsqueda y selección de contactos con enriquecimiento asíncrono en segundo plano, y las reglas de negocio de campaña (límite de 500 contactos por campaña)",
-          "en": "Built the contact search and selection flow with asynchronous background enrichment, and the campaign business rules (500-contact limit per campaign)"
+          "en": "Built the contact search and selection flow with asynchronous background enrichment, and the campaign business rules (500-contact limit per campaign)",
+          "ca": "Vaig construir el flux de cerca i selecció de contactes amb enriquiment asíncron en segon pla, i les regles de negoci de campanya (límit de 500 contactes per campanya)"
         },
         {
           "es": "Definí las consideraciones de cumplimiento RGPD para el tratamiento de emails personales",
-          "en": "Defined the GDPR compliance considerations for handling personal emails"
+          "en": "Defined the GDPR compliance considerations for handling personal emails",
+          "ca": "Vaig definir les consideracions de compliment RGPD per al tractament d'emails personals"
         }
       ]
     },
@@ -174,7 +195,8 @@
       "company": "DigitalMakers (Vass)",
       "position": {
         "es": "Frontend Web Developer",
-        "en": "Frontend Web Developer"
+        "en": "Frontend Web Developer",
+        "ca": "Frontend Web Developer"
       },
       "startDate": "2022-04",
       "endDate": "2024-06",
@@ -182,7 +204,8 @@
       "location": "Barcelona, España",
       "description": {
         "es": "Dedicación principal. Desarrollo frontend en sitios corporativos de gran envergadura: Roca, Guía Repsol y los portales de CaixaBank. Desarrollo íntegro del frontend de AgroBank Hub. En el resto de proyectos: maquetación, componentes dinámicos, actualización de contenidos y gestión de incidencias.",
-        "en": "Main role. Frontend development on large-scale corporate sites: Roca, Guía Repsol and CaixaBank's portals. Built the AgroBank Hub frontend end to end. On the rest of the projects: layout, dynamic components, content updates and incident management."
+        "en": "Main role. Frontend development on large-scale corporate sites: Roca, Guía Repsol and CaixaBank's portals. Built the AgroBank Hub frontend end to end. On the rest of the projects: layout, dynamic components, content updates and incident management.",
+        "ca": "Dedicació principal. Desenvolupament frontend en llocs corporatius de gran envergadura: Roca, Guía Repsol i els portals de CaixaBank. Desenvolupament íntegre del frontend d'AgroBank Hub. A la resta de projectes: maquetació, components dinàmics, actualització de continguts i gestió d'incidències."
       },
       "technologies": [
         "JavaScript",
@@ -196,15 +219,18 @@
       "highlights": [
         {
           "es": "Desarrollador frontend en sitios corporativos de gran envergadura: Roca, Guía Repsol, y los portales de CaixaBank (Talks, Banca Privada, Banca Premier, Wealth Management Luxembourg, además de sus versiones internacionales en Italia, Francia, Alemania, Marruecos, Polonia y Reino Unido)",
-          "en": "Frontend developer on large-scale corporate sites: Roca, Guía Repsol, and CaixaBank's portals (Talks, Banca Privada, Banca Premier, Wealth Management Luxembourg, plus their international versions in Italy, France, Germany, Morocco, Poland and the UK)"
+          "en": "Frontend developer on large-scale corporate sites: Roca, Guía Repsol, and CaixaBank's portals (Talks, Banca Privada, Banca Premier, Wealth Management Luxembourg, plus their international versions in Italy, France, Germany, Morocco, Poland and the UK)",
+          "ca": "Desenvolupador frontend en llocs corporatius de gran envergadura: Roca, Guía Repsol, i els portals de CaixaBank (Talks, Banca Privada, Banca Premier, Wealth Management Luxembourg, a més de les seves versions internacionals a Itàlia, França, Alemanya, el Marroc, Polònia i el Regne Unit)"
         },
         {
           "es": "Desarrollo íntegro del frontend de AgroBank Hub, con consumo de APIs para agenda de eventos, carrusel de casos de innovación, categorías filtrables (Agricultura, Ganadería, Industria agroalimentaria), tienda por categorías y repositorio de informes sectoriales",
-          "en": "Built the AgroBank Hub frontend end to end, consuming APIs for an events calendar, an innovation-cases carousel, filterable categories (Agriculture, Livestock, Agri-food industry), a category-based store and a sector reports repository"
+          "en": "Built the AgroBank Hub frontend end to end, consuming APIs for an events calendar, an innovation-cases carousel, filterable categories (Agriculture, Livestock, Agri-food industry), a category-based store and a sector reports repository",
+          "ca": "Desenvolupament íntegre del frontend d'AgroBank Hub, amb consum d'APIs per a agenda d'esdeveniments, carrusel de casos d'innovació, categories filtrables (Agricultura, Ramaderia, Indústria agroalimentària), botiga per categories i repositori d'informes sectorials"
         },
         {
           "es": "En el resto de proyectos: maquetación, componentes dinámicos, actualización de contenidos y gestión de incidencias",
-          "en": "On the rest of the projects: layout, dynamic components, content updates and incident management"
+          "en": "On the rest of the projects: layout, dynamic components, content updates and incident management",
+          "ca": "A la resta de projectes: maquetació, components dinàmics, actualització de continguts i gestió d'incidències"
         }
       ]
     },
@@ -213,7 +239,8 @@
       "company": "inMotion Real Estate Media",
       "position": {
         "es": "Frontend Web Developer",
-        "en": "Frontend Web Developer"
+        "en": "Frontend Web Developer",
+        "ca": "Frontend Web Developer"
       },
       "startDate": "2021-11",
       "endDate": "2022-04",
@@ -221,7 +248,8 @@
       "location": "Barcelona, España",
       "description": {
         "es": "Dedicación principal. Desarrollo de The Abbey Company al completo sobre WordPress: carrusel de propiedades, grid de portfolio, módulo de vacantes y dashboard de estadísticas, con temas y Custom Post Types a medida, maquetación responsive con Bootstrap/Foundation y componentes interactivos en jQuery y Vue.js. Colaboración también en The Multifamily Firm y H&R Retail, proyectos orientados al mercado inmobiliario de EE.UU.",
-        "en": "Main role. Built The Abbey Company from scratch on WordPress: property carousel, portfolio grid, vacancies module and stats dashboard, with custom themes and Custom Post Types, responsive layout with Bootstrap/Foundation and interactive jQuery and Vue.js components. Also collaborated on The Multifamily Firm and H&R Retail, projects for the US real estate market."
+        "en": "Main role. Built The Abbey Company from scratch on WordPress: property carousel, portfolio grid, vacancies module and stats dashboard, with custom themes and Custom Post Types, responsive layout with Bootstrap/Foundation and interactive jQuery and Vue.js components. Also collaborated on The Multifamily Firm and H&R Retail, projects for the US real estate market.",
+        "ca": "Dedicació principal. Desenvolupament de The Abbey Company al complet sobre WordPress: carrusel de propietats, graella de portfolio, mòdul de vacants i tauler d'estadístiques, amb temes i Custom Post Types a mida, maquetació responsive amb Bootstrap/Foundation i components interactius en jQuery i Vue.js. Col·laboració també a The Multifamily Firm i H&R Retail, projectes orientats al mercat immobiliari dels EUA."
       },
       "technologies": [
         "JavaScript",
@@ -235,15 +263,18 @@
       "highlights": [
         {
           "es": "Desarrollo de The Abbey Company al completo sobre WordPress: carrusel de propiedades, grid de portfolio, módulo de vacantes y dashboard de estadísticas, con temas y Custom Post Types a medida",
-          "en": "Built The Abbey Company from scratch on WordPress: property carousel, portfolio grid, vacancies module and stats dashboard, with custom themes and Custom Post Types"
+          "en": "Built The Abbey Company from scratch on WordPress: property carousel, portfolio grid, vacancies module and stats dashboard, with custom themes and Custom Post Types",
+          "ca": "Desenvolupament de The Abbey Company al complet sobre WordPress: carrusel de propietats, graella de portfolio, mòdul de vacants i tauler d'estadístiques, amb temes i Custom Post Types a mida"
         },
         {
           "es": "Maquetación responsive con Bootstrap/Foundation y componentes interactivos en jQuery y Vue.js",
-          "en": "Responsive layout with Bootstrap/Foundation and interactive jQuery and Vue.js components"
+          "en": "Responsive layout with Bootstrap/Foundation and interactive jQuery and Vue.js components",
+          "ca": "Maquetació responsive amb Bootstrap/Foundation i components interactius en jQuery i Vue.js"
         },
         {
           "es": "Colaboración en The Multifamily Firm y H&R Retail, proyectos orientados al mercado inmobiliario de EE.UU.",
-          "en": "Collaborated on The Multifamily Firm and H&R Retail, projects for the US real estate market"
+          "en": "Collaborated on The Multifamily Firm and H&R Retail, projects for the US real estate market",
+          "ca": "Col·laboració a The Multifamily Firm i H&R Retail, projectes orientats al mercat immobiliari dels EUA"
         }
       ]
     },
@@ -252,7 +283,8 @@
       "company": "Vins Nus / Clos del Portal / Alfredo Arribas",
       "position": {
         "es": "Frontend Web Development (freelance, paralelo)",
-        "en": "Frontend Web Development (freelance, parallel)"
+        "en": "Frontend Web Development (freelance, parallel)",
+        "ca": "Frontend Web Development (freelance, paral·lel)"
       },
       "startDate": "2020-09",
       "endDate": null,
@@ -261,7 +293,8 @@
       "location": "Cornudella de Montsant, España (remoto)",
       "description": {
         "es": "Desde 2020 llevo el mantenimiento técnico de los sitios de Clos del Portal y Vins Nus: administración de hosting y base de datos, parches de seguridad y optimización SEO. Recientemente sumé la web de Alfredo Arribas, y estoy migrando los tres proyectos de WordPress a Next.js apostando por generación de sitios estáticos (SSG), ganando en rendimiento y seguridad. La migración está casi terminada.",
-        "en": "Since 2020 I've handled the technical maintenance of Clos del Portal and Vins Nus: hosting and database administration, security patches and SEO optimization. I recently added the Alfredo Arribas site, and I'm migrating all three projects from WordPress to Next.js, betting on static site generation (SSG) for better performance and security. The migration is almost finished."
+        "en": "Since 2020 I've handled the technical maintenance of Clos del Portal and Vins Nus: hosting and database administration, security patches and SEO optimization. I recently added the Alfredo Arribas site, and I'm migrating all three projects from WordPress to Next.js, betting on static site generation (SSG) for better performance and security. The migration is almost finished.",
+        "ca": "Des del 2020 porto el manteniment tècnic dels llocs de Clos del Portal i Vins Nus: administració d'hosting i base de dades, pedaços de seguretat i optimització SEO. Recentment vaig sumar la web d'Alfredo Arribas, i estic migrant els tres projectes de WordPress a Next.js apostant per generació de llocs estàtics (SSG), guanyant en rendiment i seguretat. La migració està gairebé acabada."
       },
       "technologies": [
         "JavaScript",
@@ -276,11 +309,13 @@
       "highlights": [
         {
           "es": "Mantenimiento técnico continuo de closdelportal.com y vinsnus.com desde 2020: administración de hosting y base de datos, parches de seguridad y optimización SEO",
-          "en": "Ongoing technical maintenance of closdelportal.com and vinsnus.com since 2020: hosting and database administration, security patches and SEO optimization"
+          "en": "Ongoing technical maintenance of closdelportal.com and vinsnus.com since 2020: hosting and database administration, security patches and SEO optimization",
+          "ca": "Manteniment tècnic continu de closdelportal.com i vinsnus.com des del 2020: administració d'hosting i base de dades, pedaços de seguretat i optimització SEO"
         },
         {
           "es": "Incorporé recientemente la web de Alfredo Arribas, y estoy migrando los tres proyectos de WordPress a Next.js con generación de sitios estáticos (SSG), ganando en rendimiento y seguridad — migración casi terminada",
-          "en": "Recently added the Alfredo Arribas site, and I'm migrating all three projects from WordPress to Next.js with static site generation (SSG), for better performance and security — migration almost finished"
+          "en": "Recently added the Alfredo Arribas site, and I'm migrating all three projects from WordPress to Next.js with static site generation (SSG), for better performance and security — migration almost finished",
+          "ca": "Vaig incorporar recentment la web d'Alfredo Arribas, i estic migrant els tres projectes de WordPress a Next.js amb generació de llocs estàtics (SSG), guanyant en rendiment i seguretat — migració gairebé acabada"
         }
       ]
     }
@@ -503,15 +538,18 @@
       "name": "Hip Hop 4 Life",
       "description": {
         "es": "Plataforma educativa de cultura hip hop, desarrollada en solitario y canalizada a través de SADATA. Rutas de aprendizaje por disciplina (MCing, DJing, Breaking, Graffiti, Knowledge, Producción), progresión gamificada por XP, y herramientas de práctica como el Bar Counter, que analiza sílabas por verso y esquema de rima con IA sobre el SDK de Anthropic.",
-        "en": "Educational platform for hip hop culture, built solo and channeled through SADATA. Learning paths by discipline (MCing, DJing, Breaking, Graffiti, Knowledge, Production), gamified XP progression, and practice tools like the Bar Counter, which analyzes syllables per bar and rhyme scheme with AI on the Anthropic SDK."
+        "en": "Educational platform for hip hop culture, built solo and channeled through SADATA. Learning paths by discipline (MCing, DJing, Breaking, Graffiti, Knowledge, Production), gamified XP progression, and practice tools like the Bar Counter, which analyzes syllables per bar and rhyme scheme with AI on the Anthropic SDK.",
+        "ca": "Plataforma educativa de cultura hip hop, desenvolupada en solitari i canalitzada a través de SADATA. Rutes d'aprenentatge per disciplina (MCing, DJing, Breaking, Graffiti, Knowledge, Producció), progressió gamificada per XP, i eines de pràctica com el Bar Counter, que analitza síl·labes per vers i esquema de rima amb IA sobre el SDK d'Anthropic."
       },
       "impact": {
         "es": "Plataforma full-stack propia, desarrollada en solitario: rutas gamificadas por disciplina y herramientas de práctica a medida como el Bar Counter",
-        "en": "Own full-stack platform, built solo: gamified learning paths by discipline and custom practice tools like the Bar Counter"
+        "en": "Own full-stack platform, built solo: gamified learning paths by discipline and custom practice tools like the Bar Counter",
+        "ca": "Plataforma full-stack pròpia, desenvolupada en solitari: rutes gamificades per disciplina i eines de pràctica a mida com el Bar Counter"
       },
       "status": {
         "es": "En desarrollo activo",
-        "en": "In active development"
+        "en": "In active development",
+        "ca": "En desenvolupament actiu"
       },
       "url": "https://hiphop-for-life.com",
       "repo": "github.com/ManuelBarra/hiphop-knowledge-hub",
@@ -530,11 +568,13 @@
       "name": "SADATA",
       "description": {
         "es": "Consultora de Business Intelligence, IA y desarrollo de software a medida, cofundada junto a un socio. Proyectos en Chile, Ecuador, España, Reino Unido y EE. UU.",
-        "en": "Business Intelligence, AI and custom software development consultancy, co-founded with a partner. Projects in Chile, Ecuador, Spain, the UK and the US."
+        "en": "Business Intelligence, AI and custom software development consultancy, co-founded with a partner. Projects in Chile, Ecuador, Spain, the UK and the US.",
+        "ca": "Consultora de Business Intelligence, IA i desenvolupament de programari a mida, cofundada amb un soci. Projectes a Xile, l'Equador, Espanya, el Regne Unit i els EUA."
       },
       "impact": {
         "es": "Cofundador técnico · clientes activos en 5 países",
-        "en": "Technical co-founder · active clients across 5 countries"
+        "en": "Technical co-founder · active clients across 5 countries",
+        "ca": "Cofundador tècnic · clients actius en 5 països"
       },
       "url": "https://sadata.io",
       "repo": "",
@@ -553,11 +593,13 @@
       "name": "Genomcore Digital Presence",
       "description": {
         "es": "Migración completa del frontend de Genomcore, de WordPress a Next.js y React.js. Desarrollo de genomcore.com desde cero.",
-        "en": "Complete frontend migration for Genomcore, from WordPress to Next.js and React.js. Built genomcore.com from scratch."
+        "en": "Complete frontend migration for Genomcore, from WordPress to Next.js and React.js. Built genomcore.com from scratch.",
+        "ca": "Migració completa del frontend de Genomcore, de WordPress a Next.js i React.js. Desenvolupament de genomcore.com des de zero."
       },
       "impact": {
         "es": "100% en todas las métricas de Lighthouse",
-        "en": "100% on every Lighthouse metric"
+        "en": "100% on every Lighthouse metric",
+        "ca": "100% en totes les mètriques de Lighthouse"
       },
       "url": "https://genomcore.com",
       "repo": "",
@@ -575,11 +617,13 @@
       "name": "Made of Genes",
       "description": {
         "es": "Plataforma de salud basada en IA que integra genómica, biomarcadores y datos de estilo de vida. Dashboards, contenido multi-idioma y tienda online, construida en Next.js.",
-        "en": "AI-powered health platform integrating genomics, biomarkers and lifestyle data. Dashboards, multi-language content and an online store, built in Next.js."
+        "en": "AI-powered health platform integrating genomics, biomarkers and lifestyle data. Dashboards, multi-language content and an online store, built in Next.js.",
+        "ca": "Plataforma de salut basada en IA que integra genòmica, biomarcadors i dades d'estil de vida. Dashboards, contingut multi-idioma i botiga en línia, construïda en Next.js."
       },
       "impact": {
         "es": "100% en todas las métricas de Lighthouse",
-        "en": "100% on every Lighthouse metric"
+        "en": "100% on every Lighthouse metric",
+        "ca": "100% en totes les mètriques de Lighthouse"
       },
       "url": "https://www.madeofgenes.ai",
       "repo": "",
@@ -597,7 +641,8 @@
       "name": "Braddock Group — Source Contacts",
       "description": {
         "es": "Funcionalidad de búsqueda y captación de prospectos B2B integrada con la API de Wiza: filtros multidimensionales, enriquecimiento asíncrono de contactos y reglas de negocio de campaña.",
-        "en": "B2B prospect search and outreach feature integrated with the Wiza API: multi-dimensional filters, asynchronous contact enrichment and campaign business rules."
+        "en": "B2B prospect search and outreach feature integrated with the Wiza API: multi-dimensional filters, asynchronous contact enrichment and campaign business rules.",
+        "ca": "Funcionalitat de cerca i captació de prospectes B2B integrada amb l'API de Wiza: filtres multidimensionals, enriquiment asíncron de contactes i regles de negoci de campanya."
       },
       "url": "https://staging.brdkconsult.com",
       "repo": "",
@@ -614,7 +659,8 @@
       "name": "AgroBank Hub",
       "description": {
         "es": "Portal digital completo para el sector agroalimentario de CaixaBank: actualidad con cotizaciones en tiempo real, tienda, ecosistema de innovación y comunidad.",
-        "en": "Complete digital portal for CaixaBank's agri-food sector: real-time market news, a store, an innovation ecosystem and a community section."
+        "en": "Complete digital portal for CaixaBank's agri-food sector: real-time market news, a store, an innovation ecosystem and a community section.",
+        "ca": "Portal digital complet per al sector agroalimentari de CaixaBank: actualitat amb cotitzacions en temps real, botiga, ecosistema d'innovació i comunitat."
       },
       "url": "https://www.agrobankhub.es",
       "repo": "",
@@ -632,7 +678,8 @@
       "name": "Roca.es",
       "description": {
         "es": "Desarrollo y mantenimiento del sitio español de Roca, marca global de baños presente en más de 170 países.",
-        "en": "Development and maintenance of Roca's Spanish site, a global bathroom brand present in 170+ countries."
+        "en": "Development and maintenance of Roca's Spanish site, a global bathroom brand present in 170+ countries.",
+        "ca": "Desenvolupament i manteniment del lloc espanyol de Roca, marca global de banys present en més de 170 països."
       },
       "url": "https://www.roca.es",
       "repo": "",
@@ -650,8 +697,12 @@
       "name": "Guía Repsol",
       "description": {
         "es": "Desarrollo frontend en Guía Repsol, la plataforma de recomendaciones gastronómicas y de viaje de una de las mayores energéticas de España.",
-        "en": "Frontend development on Guía Repsol, the dining and travel recommendations platform from one of Spain's largest energy companies."
+        "en": "Frontend development on Guía Repsol, the dining and travel recommendations platform from one of Spain's largest energy companies.",
+        "ca": "Desenvolupament frontend a Guía Repsol, la plataforma de recomanacions gastronòmiques i de viatges d'una de les majors energètiques d'Espanya."
       },
+      "url": "https://www.guiarepsol.com",
+      "repo": "",
+      "image": "/projects/guiarepsol.jpg",
       "technologies": [
         "JavaScript",
         "AEM",
@@ -661,12 +712,16 @@
       "featured": false
     },
     {
-      "id": "caixabank-portals",
-      "name": "Portales CaixaBank",
+      "id": "caixabanktalks",
+      "name": "CaixaBank Talks",
       "description": {
-        "es": "Desarrollo frontend en múltiples portales corporativos de CaixaBank: Talks, Banca Privada, Banca Premier, Wealth Management Luxembourg, y sus versiones internacionales en Italia, Francia, Alemania, Marruecos, Polonia y Reino Unido.",
-        "en": "Frontend development across multiple CaixaBank corporate portals: Talks, Private Banking, Premier Banking, Wealth Management Luxembourg, and their international versions in Italy, France, Germany, Morocco, Poland and the UK."
+        "es": "Desarrollo frontend de CaixaBank Talks, además de otros portales corporativos del grupo: Banca Privada, Banca Premier, Wealth Management Luxembourg, y sus versiones internacionales en Italia, Francia, Alemania, Marruecos, Polonia y Reino Unido.",
+        "en": "Frontend development for CaixaBank Talks, plus other corporate portals in the group: Private Banking, Premier Banking, Wealth Management Luxembourg, and their international versions in Italy, France, Germany, Morocco, Poland and the UK.",
+        "ca": "Desenvolupament frontend de CaixaBank Talks, a més d'altres portals corporatius del grup: Banca Privada, Banca Premier, Wealth Management Luxembourg, i les seves versions internacionals a Itàlia, França, Alemanya, el Marroc, Polònia i el Regne Unit."
       },
+      "url": "https://www.caixabanktalks.es",
+      "repo": "",
+      "image": "/projects/caixabanktalks.jpg",
       "technologies": [
         "JavaScript",
         "Liferay",
@@ -680,7 +735,8 @@
       "name": "The Abbey Company",
       "description": {
         "es": "Plataforma inmobiliaria comercial con buscador interactivo de propiedades en Vue.js: filtros combinables, vistas de mapa, grid y lista.",
-        "en": "Commercial real estate platform with an interactive Vue.js property search: combinable filters, map/grid/list views."
+        "en": "Commercial real estate platform with an interactive Vue.js property search: combinable filters, map/grid/list views.",
+        "ca": "Plataforma immobiliària comercial amb cercador interactiu de propietats en Vue.js: filtres combinables, vistes de mapa, graella i llista."
       },
       "url": "https://www.theabbeyco.com",
       "repo": "",
@@ -698,7 +754,8 @@
       "name": "The Multi-Family Firm",
       "description": {
         "es": "Plataforma inmobiliaria para el mercado multifamiliar de EE.UU., con listados de propiedades, formularios de valoración y captación de leads sobre WordPress.",
-        "en": "Real estate platform for the US multifamily market, with property listings, valuation requests and lead-capture forms on WordPress."
+        "en": "Real estate platform for the US multifamily market, with property listings, valuation requests and lead-capture forms on WordPress.",
+        "ca": "Plataforma immobiliària per al mercat multifamiliar dels EUA, amb llistats de propietats, formularis de valoració i captació de leads sobre WordPress."
       },
       "url": "https://multifamilyfirm.com",
       "repo": "",
@@ -716,8 +773,12 @@
       "name": "H&R Retail",
       "description": {
         "es": "Colaboración en H&R Retail, proyecto inmobiliario comercial para el mercado de EE.UU., dentro del equipo de inMotion Real Estate Media.",
-        "en": "Collaborated on H&R Retail, a commercial real estate project for the US market, as part of the inMotion Real Estate Media team."
+        "en": "Collaborated on H&R Retail, a commercial real estate project for the US market, as part of the inMotion Real Estate Media team.",
+        "ca": "Col·laboració a H&R Retail, projecte immobiliari comercial per al mercat dels EUA, dins de l'equip d'inMotion Real Estate Media."
       },
+      "url": "https://www.hrretail.com",
+      "repo": "",
+      "image": "/projects/hrretail.jpg",
       "technologies": [
         "JavaScript",
         "Vue.js",
@@ -731,7 +792,8 @@
       "name": "Clos del Portal",
       "description": {
         "es": "Sitio de la bodega Clos del Portal en el Priorat, sobre tema WordPress custom-coded y multi-idioma (EN/ES/CAT). Mantenimiento continuo desde 2020 y actualmente en migración a Next.js (SSG).",
-        "en": "Site for the Clos del Portal winery in the Priorat, on a custom-coded, multi-language (EN/ES/CAT) WordPress theme. Ongoing maintenance since 2020, currently migrating to Next.js (SSG)."
+        "en": "Site for the Clos del Portal winery in the Priorat, on a custom-coded, multi-language (EN/ES/CAT) WordPress theme. Ongoing maintenance since 2020, currently migrating to Next.js (SSG).",
+        "ca": "Lloc del celler Clos del Portal al Priorat, sobre tema WordPress custom-coded i multi-idioma (EN/ES/CAT). Manteniment continu des del 2020 i actualment en migració a Next.js (SSG)."
       },
       "url": "https://closdelportal.com",
       "repo": "",
@@ -750,7 +812,8 @@
       "name": "Vins Nus",
       "description": {
         "es": "Sitio de la bodega Vins Nus en el Priorat, sobre tema WordPress custom-coded y multi-idioma (EN/ES/CAT). Mantenimiento continuo desde 2020 y actualmente en migración a Next.js (SSG).",
-        "en": "Site for the Vins Nus winery in the Priorat, on a custom-coded, multi-language (EN/ES/CAT) WordPress theme. Ongoing maintenance since 2020, currently migrating to Next.js (SSG)."
+        "en": "Site for the Vins Nus winery in the Priorat, on a custom-coded, multi-language (EN/ES/CAT) WordPress theme. Ongoing maintenance since 2020, currently migrating to Next.js (SSG).",
+        "ca": "Lloc del celler Vins Nus al Priorat, sobre tema WordPress custom-coded i multi-idioma (EN/ES/CAT). Manteniment continu des del 2020 i actualment en migració a Next.js (SSG)."
       },
       "url": "https://vinsnus.com",
       "repo": "",
@@ -769,7 +832,8 @@
       "name": "Alfredo Arribas",
       "description": {
         "es": "Sitio de Alfredo Arribas (antes portaldelpriorat.com, ahora consolidada como marca paraguas del grupo), incorporado recientemente al portfolio de mantenimiento y en proceso de migración a Next.js (SSG) junto a Clos del Portal y Vins Nus.",
-        "en": "Site for Alfredo Arribas (formerly portaldelpriorat.com, now consolidated as the group's umbrella brand), recently added to the maintenance portfolio and being migrated to Next.js (SSG) alongside Clos del Portal and Vins Nus."
+        "en": "Site for Alfredo Arribas (formerly portaldelpriorat.com, now consolidated as the group's umbrella brand), recently added to the maintenance portfolio and being migrated to Next.js (SSG) alongside Clos del Portal and Vins Nus.",
+        "ca": "Lloc d'Alfredo Arribas (abans portaldelpriorat.com, ara consolidada com a marca paraigua del grup), incorporat recentment al portfolio de manteniment i en procés de migració a Next.js (SSG) juntament amb Clos del Portal i Vins Nus."
       },
       "url": "https://alfredoarribas-web-production.up.railway.app/en",
       "repo": "",
@@ -788,7 +852,8 @@
       "name": "malb.dev — Personal Portfolio",
       "description": {
         "es": "Portfolio personal tipo SPA con navegación por \"rooms\" (Next.js 14 App Router), grid de wireframe animado en Canvas 2D en el Hero, GSAP + ScrollTrigger, Tailwind v4, TypeScript estricto, y una ruta /cv con el mismo contenido en formato imprimible.",
-        "en": "Personal SPA portfolio with \"room\"-based navigation (Next.js 14 App Router), an animated wireframe grid on Canvas 2D in the Hero, GSAP + ScrollTrigger, Tailwind v4, strict TypeScript, and a /cv route with the same content in printable format."
+        "en": "Personal SPA portfolio with \"room\"-based navigation (Next.js 14 App Router), an animated wireframe grid on Canvas 2D in the Hero, GSAP + ScrollTrigger, Tailwind v4, strict TypeScript, and a /cv route with the same content in printable format.",
+        "ca": "Portfolio personal tipus SPA amb navegació per \"rooms\" (Next.js 14 App Router), graella de wireframe animada en Canvas 2D a l'Hero, GSAP + ScrollTrigger, Tailwind v4, TypeScript estricte, i una ruta /cv amb el mateix contingut en format imprimible."
       },
       "url": "https://www.malb.dev",
       "repo": "github.com/ManuelBarra/personal-portfolio",
@@ -808,11 +873,13 @@
       "institution": "Skylab Coders Academy",
       "degree": {
         "es": "Frontend Developer",
-        "en": "Frontend Developer"
+        "en": "Frontend Developer",
+        "ca": "Frontend Developer"
       },
       "field": {
         "es": "Desarrollo de aplicaciones web",
-        "en": "Web application development"
+        "en": "Web application development",
+        "ca": "Desenvolupament d'aplicacions web"
       },
       "startDate": "2021-07",
       "endDate": "2021-09",
@@ -824,11 +891,13 @@
       "institution": "Espai Escola Professional d'Aplicacions Informàtiques",
       "degree": {
         "es": "Maquetador Web",
-        "en": "Web Layout Designer"
+        "en": "Web Layout Designer",
+        "ca": "Maquetador Web"
       },
       "field": {
         "es": "Maquetación Web",
-        "en": "Web Layout"
+        "en": "Web Layout",
+        "ca": "Maquetació Web"
       },
       "startDate": "2019-08",
       "endDate": "2021-08",
@@ -840,11 +909,13 @@
       "institution": "Escuela de Oficios Vitoria",
       "degree": {
         "es": "Desarrollo Web para Comercio Electrónico",
-        "en": "Web Development for E-commerce"
+        "en": "Web Development for E-commerce",
+        "ca": "Desenvolupament Web per a Comerç Electrònic"
       },
       "field": {
         "es": "Desarrollo Web",
-        "en": "Web Development"
+        "en": "Web Development",
+        "ca": "Desenvolupament Web"
       },
       "startDate": "2020-10",
       "endDate": "2021-01",
@@ -856,11 +927,13 @@
       "institution": "EDteam",
       "degree": {
         "es": "Frontend Developer",
-        "en": "Frontend Developer"
+        "en": "Frontend Developer",
+        "ca": "Frontend Developer"
       },
       "field": {
         "es": "Desarrollo de páginas web",
-        "en": "Web page development"
+        "en": "Web page development",
+        "ca": "Desenvolupament de pàgines web"
       },
       "startDate": "2020-09",
       "endDate": "2020-09",
@@ -872,11 +945,13 @@
       "institution": "University of California, Davis",
       "degree": {
         "es": "Introduction to Web Development",
-        "en": "Introduction to Web Development"
+        "en": "Introduction to Web Development",
+        "ca": "Introduction to Web Development"
       },
       "field": {
         "es": "Desarrollo Web",
-        "en": "Web Development"
+        "en": "Web Development",
+        "ca": "Desenvolupament Web"
       },
       "startDate": "2018-05",
       "endDate": "2018-06",

@@ -22,7 +22,7 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const stored = localStorage.getItem(STORAGE_KEY)
-    if (stored === 'es' || stored === 'en') {
+    if (stored === 'es' || stored === 'en' || stored === 'ca') {
       setLocaleState(stored)
     }
   }, [])
@@ -36,7 +36,8 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
     localStorage.setItem(STORAGE_KEY, next)
   }
 
-  const toggleLocale = () => setLocale(locale === 'es' ? 'en' : 'es')
+  const NEXT_LOCALE: Record<Locale, Locale> = { es: 'en', en: 'ca', ca: 'es' }
+  const toggleLocale = () => setLocale(NEXT_LOCALE[locale])
 
   return (
     <LocaleContext.Provider value={{ locale, setLocale, toggleLocale }}>

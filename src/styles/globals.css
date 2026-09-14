@@ -640,6 +640,7 @@ a:hover {
   grid-template-columns: 280px 1fr;
   gap: clamp(2rem, 4vw, 4rem);
   align-items: start;
+  align-self: center;
   width: 100%;
   max-width: 1000px;
 }
@@ -729,6 +730,7 @@ a:hover {
   display: grid;
   grid-template-columns: 380px 1fr;
   gap: 0;
+  align-self: center;
   width: 100%;
   max-width: 1100px;
   height: 70vh;
@@ -905,6 +907,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  align-self: center;
   width: 100%;
   max-width: 900px;
 }
@@ -1008,6 +1011,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  align-self: center;
   width: 100%;
   max-width: 1000px;
 }
@@ -1329,6 +1333,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
   gap: 2rem;
   width: 100%;
   max-width: 700px;
@@ -1557,10 +1562,23 @@ body.cv-route {
   gap: 0.75rem;
 }
 
-.cv-toolbar__lang {
+.cv-toolbar__lang-group {
+  display: flex;
   border: 1px solid #c9c2ab;
+  overflow: hidden;
+}
+
+.cv-toolbar__lang {
   padding: 0.3rem 0.6rem;
   color: #4a4636;
+  border-right: 1px solid #c9c2ab;
+}
+
+.cv-toolbar__lang:last-child { border-right: none; }
+
+.cv-toolbar__lang--active {
+  background: #1a1a1a;
+  color: #f4f1ea;
 }
 
 .cv-toolbar__print {
