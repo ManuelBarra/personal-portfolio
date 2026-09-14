@@ -27,7 +27,7 @@ export function JsonLd() {
       },
       {
         '@type': 'WebSite',
-        name: 'MANU.OS',
+        name: 'malb.dev',
         url: SITE_URL,
       },
     ],

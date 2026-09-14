@@ -46,7 +46,7 @@ export function HeroRoom({ personal }: HeroRoomProps) {
         )}
 
         <div className="hero-prompt">
-          <span style={{ color: 'var(--color-neon)' }}>guest@manu.os</span>
+          <span style={{ color: 'var(--color-neon)' }}>guest@malb.dev</span>
           <span style={{ color: 'var(--color-text-muted)' }}>:~$</span>
           {' '}navigate --explore
           <span className="hero-prompt__cursor" />

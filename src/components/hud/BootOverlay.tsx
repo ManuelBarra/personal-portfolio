@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 
 const BOOT_LINES = [
-  'MANU.OS v3.0 — Initializing...',
+  'malb.dev v3.0 — Initializing...',
   'Loading kernel modules...',
   'Mounting /dev/portfolio...',
   'Checking filesystem integrity... OK',

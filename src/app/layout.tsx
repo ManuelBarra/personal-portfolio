@@ -36,10 +36,10 @@ const vt323 = VT323({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Manuel Barra Lazo — Frontend / Full-Stack Developer, Integración de IA en producción',
+  title: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
   description:
-    'Portfolio de Manuel Barra Lazo. Frontend Developer con 5+ años de experiencia que lleva esa base a la integración real de IA en producto: HH4LIFE (agentes de IA con el SDK de Anthropic) y SADATA (consultora de BI e IA).',
-  keywords: ['Frontend Developer', 'AI Integration', 'React', 'Next.js', 'Three.js', 'Anthropic SDK', 'TypeScript', 'Barcelona'],
+    'Portfolio de Manuel Barra Lazo. Desarrollador Frontend con 5+ años de experiencia en JavaScript, React, Vue y Next.js, que integra IA generativa en el flujo de trabajo de equipos de producto.',
+  keywords: ['Frontend Developer', 'AI Integrator', 'React', 'Next.js', 'Vue.js', 'JavaScript', 'Barcelona'],
   authors: [{ name: 'Manuel Barra Lazo' }],
   creator: 'Manuel Barra Lazo',
   alternates: {
@@ -49,14 +49,14 @@ export const metadata: Metadata = {
     type: 'website',
     url: SITE_URL,
     locale: 'es_ES',
-    title: 'Manuel Barra Lazo — Frontend / Full-Stack Developer, Integración de IA en producción',
-    description: 'Portfolio 3D interactivo. Frontend moderno con integración real de IA en producto.',
+    title: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
+    description: 'Portfolio interactivo. Frontend moderno con integración real de IA en el flujo de trabajo de producto.',
     siteName: 'Manuel Barra Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Manuel Barra Lazo — Frontend / Full-Stack Developer',
-    description: 'Portfolio 3D interactivo. Frontend moderno con integración real de IA en producto.',
+    title: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
+    description: 'Portfolio interactivo. Frontend moderno con integración real de IA en el flujo de trabajo de producto.',
   },
   robots: {
     index: true,

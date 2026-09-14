@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Manuel Barra Lazo — Frontend Developer & IA Lead',
-    short_name: 'MANU.OS',
+    name: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
+    short_name: 'malb.dev',
     description: 'Portfolio de Manuel Barra Lazo. Frontend moderno, animaciones y experiencias web únicas.',
     start_url: '/',
     display: 'standalone',

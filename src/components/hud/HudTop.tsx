@@ -27,7 +27,7 @@ export function HudTop({ activeIdx }: HudTopProps) {
     <div className="hud-top">
       <div className="hud-top__brand">
         <span className="hud-top__status-dot" />
-        MANU.OS
+        malb.dev
       </div>
 
       <div className="hud-top__sector">

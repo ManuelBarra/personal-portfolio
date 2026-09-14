@@ -50,9 +50,9 @@ function ogSvg() {
   <path d="M120 245 L190 315 L120 385" fill="none" stroke="${NEON}" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="215" y="300" width="26" height="18" fill="${NEON}"/>
 
-  <text x="290" y="300" font-family="Consolas, 'Courier New', monospace" font-size="64" font-weight="700" fill="#E8ECF4" letter-spacing="2">MANU.OS</text>
-  <text x="291" y="350" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="${NEON}" letter-spacing="1">Manuel Barra Lazo — Frontend Developer</text>
-  <text x="291" y="385" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#8892A8" letter-spacing="1">portfolio-mb-2026.vercel.app</text>
+  <text x="290" y="300" font-family="Consolas, 'Courier New', monospace" font-size="64" font-weight="700" fill="#E8ECF4" letter-spacing="2">malb.dev</text>
+  <text x="291" y="350" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="${NEON}" letter-spacing="1">Manuel Barra Lazo — Frontend Web Developer</text>
+  <text x="291" y="385" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#8892A8" letter-spacing="1">malb.dev</text>
 </svg>`.trim()
 }
 
