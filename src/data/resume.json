@@ -646,6 +646,7 @@
       },
       "url": "https://staging.brdkconsult.com",
       "repo": "",
+      "image": "/projects/bdi-sourcecontacts.jpg",
       "technologies": [
         "MongoDB",
         "Express",
