@@ -64,6 +64,15 @@ export function AboutRoom({ personal }: AboutRoomProps) {
             </span>
           </div>
         )}
+
+        {personal.certifications && personal.certifications.length > 0 && (
+          <div className="about-meta-row">
+            <span className="about-meta-row__label">Certifications</span>
+            <span className="about-meta-row__value">
+              {personal.certifications.map((c) => t(c, locale)).join(' · ')}
+            </span>
+          </div>
+        )}
       </div>
     </div>
   )

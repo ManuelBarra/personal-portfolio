@@ -16,6 +16,7 @@ const UI: Record<Locale, Record<string, string>> = {
     skills: 'Habilidades',
     projects: 'Proyectos destacados',
     languages: 'Idiomas',
+    certifications: 'Certificaciones',
     present: 'Actualidad',
     parallel: 'en paralelo',
     visit: 'Enlace',
@@ -28,6 +29,7 @@ const UI: Record<Locale, Record<string, string>> = {
     skills: 'Skills',
     projects: 'Featured projects',
     languages: 'Languages',
+    certifications: 'Certifications',
     present: 'Present',
     parallel: 'parallel',
     visit: 'Link',
@@ -78,7 +80,6 @@ export default async function CvPage(
   const contactLine = [
     personal.location,
     personal.email,
-    personal.phone,
     personal.links.website,
     personal.links.github,
     personal.links.linkedin,
@@ -190,6 +191,15 @@ export default async function CvPage(
             <h2 className="cv-doc__section-title">{ui.languages}</h2>
             <p className="cv-doc__text">
               {personal.languages.map((l) => `${l.name} (${t(l.level, locale)})`).join(' · ')}
+            </p>
+          </section>
+        )}
+
+        {personal.certifications && personal.certifications.length > 0 && (
+          <section className="cv-doc__section">
+            <h2 className="cv-doc__section-title">{ui.certifications}</h2>
+            <p className="cv-doc__text">
+              {personal.certifications.map((c) => t(c, locale)).join(' · ')}
             </p>
           </section>
         )}

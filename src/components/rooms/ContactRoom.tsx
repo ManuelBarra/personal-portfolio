@@ -9,7 +9,6 @@ interface ContactRoomProps {
 export function ContactRoom({ personal }: ContactRoomProps) {
   const contacts = [
     { label: 'Email', value: personal.email, href: `mailto:${personal.email}` },
-    ...(personal.phone ? [{ label: 'Phone', value: personal.phone, href: `tel:${personal.phone}` }] : []),
     ...(personal.links.github ? [{ label: 'GitHub', value: personal.links.github, href: `https://${personal.links.github}` }] : []),
     ...(personal.links.linkedin ? [{ label: 'LinkedIn', value: personal.links.linkedin, href: `https://${personal.links.linkedin}` }] : []),
     ...(personal.links.website ? [{ label: 'Website', value: personal.links.website, href: `https://${personal.links.website}` }] : []),

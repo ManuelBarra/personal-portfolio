@@ -34,6 +34,7 @@ export interface ResumePersonal {
   avatar?: string
   languages?: { name: string; level: LocalizedText }[]
   interests?: LocalizedText[]
+  certifications?: LocalizedText[]
 }
 
 export interface ResumeExperience {
