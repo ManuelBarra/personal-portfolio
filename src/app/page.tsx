@@ -62,11 +62,28 @@ export default function Home() {
   useEffect(() => {
     function onWheel(e: WheelEvent) {
       if (!booted || wheelLock.current) return
-      e.preventDefault()
 
       const delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX
       if (Math.abs(delta) < 30) return
 
+      // If the wheel happened over a scrollable inner container (e.g. the
+      // projects grid or the experience rail) that still has room to move
+      // in this direction, let the browser scroll it natively instead of
+      // hijacking the gesture for room navigation.
+      let node = e.target as HTMLElement | null
+      while (node) {
+        const style = getComputedStyle(node)
+        const scrollable = (style.overflowY === 'auto' || style.overflowY === 'scroll')
+          && node.scrollHeight > node.clientHeight
+        if (scrollable) {
+          const atTop = node.scrollTop <= 0
+          const atBottom = node.scrollTop + node.clientHeight >= node.scrollHeight - 1
+          if ((delta > 0 && !atBottom) || (delta < 0 && !atTop)) return
+        }
+        node = node.parentElement
+      }
+
+      e.preventDefault()
       wheelLock.current = true
       if (delta > 0) goTo(activeIdx + 1)
       else goTo(activeIdx - 1)

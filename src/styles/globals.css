@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* ─── MANU.OS — Cyberpunk Design System ──────────────────── */
+/* ─── malb.dev — Cyberpunk Design System ──────────────────── */
 
 @theme {
   /* Core palette */
@@ -1062,11 +1062,11 @@ a:hover {
   box-shadow: 0 0 4px var(--color-neon);
 }
 
-/* ─── Projects Room — 3D Coverflow Gallery ───────────────── */
+/* ─── Projects Room — Hover Grid ──────────────────────────── */
 
 .proj-gallery-root {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
 }
@@ -1080,71 +1080,46 @@ a:hover {
   vertical-align: middle;
 }
 
-.proj-gallery-stage {
-  position: relative;
-  height: 440px;
-  perspective: 1400px;
-  perspective-origin: 50% 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  touch-action: none;
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+  max-height: min(620px, 62vh);
+  overflow-y: auto;
+  padding: 4px 10px 4px 4px;
 }
 
-.proj-gallery-fan {
-  position: relative;
-  width: 100%;
-  height: 380px;
-  transform-style: preserve-3d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+.proj-grid::-webkit-scrollbar { width: 4px; }
+.proj-grid::-webkit-scrollbar-thumb { background: var(--color-neon); border-radius: 2px; }
 
-/* Card — uses CSS vars set inline for 3D position */
-.proj-card {
-  position: absolute;
-  width: 320px;
+/* Tile — image fills the box; a bottom panel peeks with just the name
+   and rises slowly on hover/focus to reveal the rest (description,
+   tags, links). Featured projects get a wider slot on large screens. */
+.proj-tile {
+  position: relative;
+  min-height: 320px;
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
-  cursor: pointer;
-  transition:
-    transform 0.55s cubic-bezier(0.16, 1, 0.3, 1),
-    opacity   0.55s ease,
-    border-color 0.3s ease,
-    box-shadow   0.3s ease;
-  transform:
-    translateX(var(--card-tx))
-    translateZ(var(--card-tz))
-    rotateY(var(--card-ry))
-    scale(var(--card-scale));
-  opacity: var(--card-opacity);
-  will-change: transform, opacity;
+  transition: border-color 0.35s ease, box-shadow 0.35s ease;
 }
 
-.proj-card--active {
-  border-color: var(--card-accent);
-  box-shadow: 0 0 50px color-mix(in srgb, var(--card-accent) 22%, transparent),
-              0 0 0 1px color-mix(in srgb, var(--card-accent) 15%, transparent);
-  cursor: default;
+
+.proj-tile:hover,
+.proj-tile:focus-within {
+  border-color: var(--tile-accent);
+  box-shadow: 0 0 40px color-mix(in srgb, var(--tile-accent) 20%, transparent);
 }
 
-/* Visual header */
-.proj-card__visual {
-  height: 130px;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  padding: 14px 16px;
-  flex-shrink: 0;
+.proj-tile:focus-visible { outline: 1px solid var(--tile-accent); outline-offset: -1px; }
+
+.proj-tile__visual {
+  position: absolute;
+  inset: 0;
 }
 
-.proj-card__visual-grid {
+.proj-tile__visual-grid {
   position: absolute;
   inset: 0;
   background-image:
@@ -1153,70 +1128,143 @@ a:hover {
   background-size: 22px 22px;
 }
 
-.proj-card__visual-img {
+.proj-tile__image {
+  object-fit: cover;
+  opacity: 0.75;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+}
+
+.proj-tile:hover .proj-tile__image,
+.proj-tile:focus-within .proj-tile__image {
+  transform: scale(1.06);
+  opacity: 0.9;
+}
+
+.proj-tile__visual-label {
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.65;
-}
-
-.proj-card__visual-label {
-  position: relative;
   z-index: 1;
-  font-family: var(--font-crt);
-  font-size: 1.3rem;
-  line-height: 1;
-  letter-spacing: 0.04em;
-  text-shadow: 0 0 18px currentColor;
-  opacity: 0.7;
-  max-width: 90%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+  padding: 1.5rem;
 }
 
-.proj-card__badge {
+.proj-tile__visual-glyph {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.proj-tile__visual-name {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  opacity: 0.75;
+  max-width: 88%;
+}
+
+.proj-tile__badge {
   position: absolute;
   top: 10px;
   right: 10px;
+  z-index: 2;
   font-family: var(--font-mono);
   font-size: 0.52rem;
   letter-spacing: 0.15em;
   color: var(--color-amber);
   border: 1px solid rgba(255, 184, 0, 0.35);
   padding: 2px 7px;
-  background: rgba(255, 184, 0, 0.06);
+  background: rgba(3, 6, 13, 0.7);
   text-transform: uppercase;
 }
 
-.proj-card__badge--status {
+.proj-tile__badge--status {
   right: auto;
   left: 10px;
   color: var(--color-neon);
   border-color: rgba(61, 220, 255, 0.35);
-  background: rgba(61, 220, 255, 0.06);
 }
 
-/* Card body */
-.proj-card__body {
-  padding: 18px 20px 16px;
+/* Bottom sheet — always shows the peek row; the reveal block grows
+   from 0 height on hover/focus, so the panel appears to rise slowly
+   over the image instead of the card resizing or content popping in. */
+.proj-tile__panel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 14px 14px;
+  /* Solid (not a gradient) so it stays legible over any image no matter
+     how tall the panel grows once the reveal content expands. */
+  background: rgba(3, 6, 13, 0.94);
+  border-top: 1px solid rgba(61, 220, 255, 0.12);
+}
+
+.proj-tile__panel-peek {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.proj-tile__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-text-primary);
+  line-height: 1.25;
+}
+
+.proj-tile__hint {
+  flex-shrink: 0;
+  color: var(--tile-accent);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  transition: transform 0.35s ease;
+}
+
+.proj-tile:hover .proj-tile__hint,
+.proj-tile:focus-within .proj-tile__hint {
+  transform: translateY(-4px);
+}
+
+.proj-tile__panel-reveal {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  flex: 1;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
 }
 
-.proj-card__name {
-  font-family: var(--font-display);
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-  line-height: 1.2;
+/* Capped so the panel never grows taller than the tile itself (which would
+   push content up over the badges) — the description gets its own small
+   scroll+fade area below, while impact/tags/links stay fully visible. */
+.proj-tile:hover .proj-tile__panel-reveal,
+.proj-tile:focus-within .proj-tile__panel-reveal {
+  max-height: 190px;
+  opacity: 1;
+  margin-top: 8px;
 }
 
-.proj-card__impact {
+.proj-tile__impact {
   font-family: var(--font-mono);
   font-size: 0.66rem;
   font-weight: 600;
@@ -1224,29 +1272,23 @@ a:hover {
   line-height: 1.3;
 }
 
-.proj-card__desc {
+.proj-tile__desc {
   font-size: 0.76rem;
-  line-height: 1.6;
+  line-height: 1.55;
   color: var(--color-text-secondary);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  max-height: 78px;
+  overflow-y: auto;
+  mask-image: linear-gradient(to bottom, black calc(100% - 16px), transparent);
+  -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 16px), transparent);
 }
 
-.proj-card__desc--full {
-  -webkit-line-clamp: unset;
-  overflow: visible;
-}
-
-.proj-card__tech {
+.proj-tile__tech {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  margin-top: 2px;
 }
 
-.proj-card__tech-tag {
+.proj-tile__tech-tag {
   padding: 2px 7px;
   border: 1px solid var(--color-border);
   font-family: var(--font-mono);
@@ -1255,89 +1297,30 @@ a:hover {
   letter-spacing: 0.04em;
 }
 
-.proj-card__links {
+.proj-tile__links {
   display: flex;
   gap: 14px;
-  margin-top: auto;
-  padding-top: 6px;
+  padding-top: 2px;
 }
 
-.proj-card__link {
+.proj-tile__link {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: var(--card-accent, var(--color-neon));
+  font-size: 0.7rem;
+  color: var(--tile-accent, var(--color-neon));
   transition: opacity 0.2s ease;
 }
 
-.proj-card__link:hover { opacity: 0.65; }
+.proj-tile__link:hover { opacity: 0.65; }
 
-.proj-card__link--muted {
+.proj-tile__link--muted {
   color: var(--color-text-muted);
 }
 
-/* Arrows */
-.proj-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-65%);
-  z-index: 20;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  border: 1px solid var(--color-border);
-  color: var(--color-neon);
-  font-size: 1.6rem;
-  line-height: 1;
-  cursor: pointer;
-  padding: 0;
-  transition: all 0.25s ease;
-}
-
-.proj-arrow:hover {
-  border-color: var(--color-neon);
-  background: rgba(61, 220, 255, 0.07);
-  box-shadow: var(--shadow-neon);
-}
-
-.proj-arrow:disabled { opacity: 0.18; pointer-events: none; }
-.proj-arrow--left  { left:  0; }
-.proj-arrow--right { right: 0; }
-
-/* Dots */
-.proj-dots {
-  position: absolute;
-  bottom: 4px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 6px;
-  z-index: 20;
-}
-
-.proj-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  border: 1px solid var(--color-text-muted);
-  background: transparent;
-  cursor: pointer;
-  padding: 0;
-  transition: all 0.3s ease;
-}
-
-.proj-dot--active {
-  background: var(--color-neon);
-  border-color: var(--color-neon);
-  box-shadow: 0 0 6px var(--color-neon);
-}
-
-@media (max-width: 768px) {
-  .proj-gallery-stage { height: 500px; perspective: 900px; }
-  .proj-card { width: 270px; }
-  .proj-gallery-fan { height: 430px; }
+@media (min-width: 1024px) {
+  .proj-tile__name { font-size: 1.05rem; }
+  .proj-tile__desc { font-size: 0.8rem; }
+  .proj-tile__tech-tag,
+  .proj-tile__link { font-size: 0.72rem; }
 }
 
 /* ─── Contact Room ───────────────────────────────────────── */
