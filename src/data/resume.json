@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "7.0",
+    "version": "7.1",
     "lastUpdated": "2026-10-11",
     "author": "Manuel Barra Lazo"
   },
@@ -142,7 +142,7 @@
         "ca": "Frontend Developer · IA aplicada"
       },
       "startDate": "2025-01",
-      "endDate": "2026-07",
+      "endDate": "2026-08",
       "current": false,
       "location": "Barcelona",
       "description": {
@@ -172,9 +172,9 @@
           "ca": "Vaig redissenyar tots dos llocs juntament amb un dissenyador, inclòs el llançament de la nova web pel 10è aniversari de la companyia i la web bilingüe (ES/EN) amb botiga de Made of Genes."
         },
         {
-          "es": "Diseñé y construí un catálogo de skills de IA generativa que cubre las necesidades del equipo de marketing (7 personas) y lo distribuí a través de un marketplace interno.",
-          "en": "Designed and built a catalogue of generative AI skills covering the needs of the 7-person marketing team, distributed through an internal marketplace.",
-          "ca": "Vaig dissenyar i construir un catàleg de skills d'IA generativa que cobreix les necessitats de l'equip de màrqueting (7 persones) i el vaig distribuir a través d'un marketplace intern."
+          "es": "Diseñé y construí un catálogo de skills de IA generativa que cubre las necesidades del equipo de marketing (7 personas), distribuido en un marketplace interno, con un ahorro estimado de unas 10 horas semanales.",
+          "en": "Designed and built a catalogue of generative AI skills covering the needs of the 7-person marketing team, distributed through an internal marketplace and saving an estimated 10 hours a week.",
+          "ca": "Vaig dissenyar i construir un catàleg de skills d'IA generativa que cobreix les necessitats de l'equip de màrqueting (7 persones), distribuït en un marketplace intern, amb un estalvi estimat d'unes 10 hores setmanals."
         },
         {
           "es": "Adopté Claude Code como herramienta de desarrollo asistido para acelerar la migración del código heredado.",
@@ -842,7 +842,7 @@
   "education": [
     {
       "id": "dam",
-      "institution": "Ciclo Formativo de Grado Superior",
+      "institution": "Jobie",
       "degree": {
         "es": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)",
         "en": "Higher Diploma in Cross-Platform Application Development (DAM)",
