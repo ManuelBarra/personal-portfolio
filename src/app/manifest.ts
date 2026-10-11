@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
+    name: 'Manuel Barra Lazo — Full Stack Developer · Next.js, React & TypeScript',
     short_name: 'malb.dev',
     description: 'Portfolio de Manuel Barra Lazo. Frontend moderno, animaciones y experiencias web únicas.',
     start_url: '/',

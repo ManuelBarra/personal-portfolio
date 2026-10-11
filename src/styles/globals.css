@@ -1009,7 +1009,7 @@ a:hover {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   align-self: center;
   width: 100%;
@@ -1035,15 +1035,18 @@ a:hover {
 
 .skill-block__list {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .skill-block__item {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  font-size: 0.8rem;
+  padding: 4px 10px;
+  border: 1px solid var(--color-border);
+  background: rgba(61, 220, 255, 0.04);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
   color: var(--color-text-secondary);
 }
 
@@ -1475,6 +1478,13 @@ a:hover {
   }
 
   .hud-keys { display: none; }
+
+  /* Rooms scroll on mobile, so text passes under the fixed minimap:
+     give the bar a solid base so dots never sit on top of copy. */
+  .hud-bottom {
+    height: 44px;
+    background: linear-gradient(0deg, rgba(3, 6, 13, 0.98) 70%, rgba(3, 6, 13, 0) 100%);
+  }
 
   /* Long content (bio paragraphs, experience highlights, etc.) can be
      taller than one mobile screen — let the room scroll instead of

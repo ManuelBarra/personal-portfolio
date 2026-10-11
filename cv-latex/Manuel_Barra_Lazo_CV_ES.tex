@@ -1,0 +1,130 @@
+% ------------------------------------------------------------------
+%  CV — Manuel Barra Lazo (ES)
+%  Compilar con pdflatex (Overleaf o TeX Live):  pdflatex Manuel_Barra_Lazo_CV_ES.tex
+%  Una columna, texto seleccionable y sin iconos: pensado para ATS.
+% ------------------------------------------------------------------
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+\usepackage[a4paper,top=1.1cm,bottom=0.9cm,left=1.45cm,right=1.45cm]{geometry}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\definecolor{ink}{HTML}{1A1A1A}
+\definecolor{accent}{HTML}{0B5C7A}
+\definecolor{muted}{HTML}{5A5A5A}
+
+\hypersetup{
+  pdftitle={Manuel Barra Lazo - CV},
+  pdfauthor={Manuel Barra Lazo},
+  pdfsubject={Desarrollador Full Stack},
+  pdfkeywords={Full Stack, Frontend, React, Next.js, TypeScript, Node.js, Barcelona}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\raggedright
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\color{ink}
+
+\titleformat{\section}{\small\bfseries\color{accent}}{}{0pt}{\MakeUppercase}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+
+\setlist[itemize]{leftmargin=1.1em,label={\color{accent}\textbullet},topsep=2pt,itemsep=0.6pt,parsep=0pt}
+
+% \role{Empresa}{Puesto}{Fechas}{Ubicación}
+\newcommand{\role}[4]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{#1} \,·\, #2 & \small\color{muted}#4 \,·\, #3
+  \end{tabularx}\par\vspace{0pt}}
+\newcommand{\context}[1]{{\small #1}\par}
+\newcommand{\stack}[1]{\vspace{1pt}{\footnotesize\color{muted}\textbf{Stack:} #1}\par\vspace{4pt}}
+
+\begin{document}
+
+% ---------------- Cabecera ----------------
+{\LARGE\bfseries Manuel Barra Lazo}\par\vspace{2pt}
+{\large\color{accent} Desarrollador Full Stack \,·\, Next.js, React y TypeScript}\par\vspace{3pt}
+{\footnotesize Barcelona \,·\, +34 634 008 260 \,·\,
+\href{mailto:manuelbarralazo@gmail.com}{manuelbarralazo@gmail.com} \,·\,
+\href{https://www.malb.dev}{malb.dev} \,·\,
+\href{https://www.linkedin.com/in/manuelbarra}{linkedin.com/in/manuelbarra} \,·\,
+\href{https://github.com/ManuelBarra}{github.com/ManuelBarra}}
+
+% ---------------- Perfil ----------------
+\section{Perfil}
+Desarrollador full stack con más de 5 años construyendo producto web con React, Next.js y TypeScript, de portales enterprise para CaixaBank, Roca y Repsol a plataformas propias con IA generativa. En Genomcore migré dos webs corporativas a Next.js con 100 en todas las categorías de Lighthouse y desplegué un catálogo de skills de IA para marketing. Hoy desarrollo producto web y multiplataforma en SADATA y curso DAM para sumar Java, Kotlin y Android.
+
+% ---------------- Experiencia ----------------
+\section{Experiencia}
+
+\role{SADATA}{Desarrollador Multiplataforma (Full Stack)}{jun 2026 -- actualidad}{Remoto}
+\context{Consultora de BI, IA y software a medida con sedes en Barcelona y Santiago de Chile y clientes en 5 países.}
+\begin{itemize}
+  \item \textbf{Hip Hop 4 Life} (producto propio, en prelanzamiento): plataforma EdTech full stack con Next.js 16, React 19, TypeScript, Prisma/PostgreSQL, Auth.js y Stripe: 134 lecciones en 6 disciplinas, progresión por XP y 55 endpoints.
+  \item Integré la API de Claude (Anthropic SDK) en un analizador de métrica y rima por verso y en el feedback automático de las prácticas, con limitación de peticiones y sanitización de entradas.
+  \item \textbf{BDI} (plataforma multi-tenant de email marketing, Reino Unido, jun--ago 2026): redacté el PRD de «Source Contacts» y desarrollé su frontend React en un equipo MERN: búsqueda de prospectos sobre la API de Wiza, enriquecimiento asíncrono y RGPD.
+\end{itemize}
+\stack{TypeScript, Next.js, React, Node.js, Prisma, PostgreSQL, Anthropic SDK, Stripe, Jest, Vercel}
+
+\role{Genomcore}{Frontend Developer · IA aplicada}{ene 2025 -- jul 2026}{Barcelona}
+\context{Healthtech con más de 10 años gestionando datos clínicos y genómicos para hospitales y servicios de salud.}
+\begin{itemize}
+  \item Lideré la migración de \textbf{genomcore.com} y \textbf{madeofgenes.ai} de WordPress a Next.js con contenido estático en Markdown: \textbf{100 en las cuatro categorías de Lighthouse} (rendimiento, accesibilidad, buenas prácticas y SEO).
+  \item Rediseñé ambos sitios con un diseñador, incluida la web del 10.º aniversario de la compañía.
+  \item Construí un \textbf{catálogo de skills de IA generativa} para el equipo de marketing (7 personas), publicado en un marketplace interno.
+  \item Adopté Claude Code como herramienta de desarrollo asistido para acelerar la migración del código heredado.
+\end{itemize}
+\stack{Next.js, React, TypeScript, WordPress, Markdown, Claude Code, Gemini, Git}
+
+\role{DigitalMakers (Vass)}{Frontend Developer}{abr 2022 -- jun 2024}{Barcelona}
+\begin{itemize}
+  \item Construí de principio a fin el frontend de \textbf{AgroBank Hub} (CaixaBank): agenda de eventos, casos de innovación, categorías filtrables, tienda e informes sectoriales, alimentados por APIs REST.
+  \item Desarrollé y mantuve los portales corporativos de \textbf{CaixaBank} (Talks, Banca Privada, Banca Premier y Wealth Management Luxembourg) y sus versiones en 6 países.
+  \item Frontend de \textbf{Roca.es} y \textbf{Guía Repsol}: maquetación responsive, componentes e incidencias en producción.
+\end{itemize}
+\stack{JavaScript, Liferay, AEM, jQuery, SASS, Bootstrap, REST APIs, Figma, Jira, Scrum}
+
+{\small\color{muted}\itshape Pausa profesional (viaje), jul -- dic 2024.}\par\vspace{4pt}
+
+\role{inMotion Real Estate Media}{Frontend Developer (en inglés)}{nov 2021 -- abr 2022}{Barcelona}
+\begin{itemize}
+  \item Construí \textbf{The Abbey Company} de principio a fin: buscador de propiedades en Vue.js con filtros combinables y vistas de mapa, cuadrícula y lista, módulo de vacantes y dashboard de estadísticas.
+  \item Temas y Custom Post Types de WordPress a medida para The Multifamily Firm y H\&R Retail (inmobiliario, EE.\,UU.).
+\end{itemize}
+\vspace{4pt}
+
+\role{Clos del Portal · Vins Nus · Alfredo Arribas}{Desarrollador web freelance}{sep 2020 -- actualidad}{Remoto, en paralelo}
+\begin{itemize}
+  \item Responsable técnico desde 2020 de las webs multi-idioma con tienda online de un grupo de bodegas del Priorat (hosting, seguridad y SEO); migración en curso de los tres sitios de WordPress a Next.js con SSG.
+\end{itemize}
+
+% ---------------- Formación ----------------
+\section{Formación}
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)} {\small(en curso: Java, Kotlin, Android)} & \small\color{muted}2026 -- 2028 \\[2pt]
+\textbf{Bootcamp Frontend Developer} \,·\, Skylab Coders Academy (ISDI Coders) & \small\color{muted}2021 \\[2pt]
+\textbf{Desarrollo y maquetación web} \,·\, Espai Escola Professional d'Aplicacions Informàtiques & \small\color{muted}2019 -- 2021 \\
+\end{tabularx}
+
+% ---------------- Habilidades ----------------
+\section{Habilidades}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Frontend} & TypeScript, JavaScript, React, Next.js, Vue.js, Tailwind CSS, SASS, GSAP, HTML/CSS \\
+\textbf{Backend y CMS} & Node.js, Express, Prisma, PostgreSQL, MongoDB, PHP, WordPress, Liferay, AEM \\
+\textbf{IA} & Claude API (Anthropic SDK), Claude Code, Gemini \\
+\textbf{Workflow} & Git/GitHub, Jest y Testing Library, Vercel, Lighthouse y Core Web Vitals, SEO, Figma, Jira, Scrum \\
+\textbf{Idiomas} & Español (nativo) · Inglés (avanzado, experiencia profesional en inglés) \\
+\end{tabularx}
+
+\end{document}

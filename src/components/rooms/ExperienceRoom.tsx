@@ -1,18 +1,23 @@
 'use client'
 
 import { useState } from 'react'
-import type { ResumeExperience } from '@/types/resume'
+import type { ResumeExperience, Locale } from '@/types/resume'
+import { formatMonth } from '@/lib/i18n'
 import { useLocale, t } from '@/hooks/useLocale'
 
 interface ExperienceRoomProps {
   experience: ResumeExperience[]
 }
 
-function formatDate(date: string | null, current: boolean): string {
-  if (current || !date) return 'Present'
-  const [year, month] = date.split('-')
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-  return `${months[parseInt(month) - 1]} ${year}`
+const LABELS: Record<Locale, { present: string; parallel: string }> = {
+  es: { present: 'Actualidad', parallel: 'en paralelo' },
+  en: { present: 'Present', parallel: 'parallel' },
+  ca: { present: 'Actualitat', parallel: 'en paral·lel' },
+}
+
+function formatDate(date: string | null, current: boolean, locale: Locale): string {
+  if (current || !date) return LABELS[locale].present
+  return formatMonth(date, locale)
 }
 
 export function ExperienceRoom({ experience }: ExperienceRoomProps) {
@@ -44,15 +49,17 @@ export function ExperienceRoom({ experience }: ExperienceRoomProps) {
               }}
             >
               <div className="exp-item__date">
-                {formatDate(exp.startDate, false)} — {formatDate(exp.endDate, exp.current)}
-                {exp.parallel && <span className="exp-item__parallel"> · en paralelo</span>}
+                {formatDate(exp.startDate, false, locale)} — {formatDate(exp.endDate, exp.current, locale)}
+                {exp.parallel && <span className="exp-item__parallel"> · {LABELS[locale].parallel}</span>}
               </div>
               {exp.type === 'break' ? (
-                <div className="exp-item__break-label">{exp.company}</div>
+                <div className="exp-item__break-label">{t(exp.position, locale)}</div>
               ) : (
-                <div className="exp-item__company">{exp.company}</div>
+                <>
+                  <div className="exp-item__company">{exp.company}</div>
+                  <div className="exp-item__role">{t(exp.position, locale)}</div>
+                </>
               )}
-              <div className="exp-item__role">{t(exp.position, locale)}</div>
             </div>
           ))}
         </div>
@@ -60,19 +67,19 @@ export function ExperienceRoom({ experience }: ExperienceRoomProps) {
         <div className="exp-detail">
           <div className="exp-detail__header">
             <div className={`exp-detail__company${active.type === 'break' ? ' exp-detail__company--break' : ''}`}>
-              {active.company}
+              {active.type === 'break' ? t(active.position, locale) : active.company}
             </div>
-            <div className="exp-detail__role">{t(active.position, locale)}</div>
+            {active.type !== 'break' && <div className="exp-detail__role">{t(active.position, locale)}</div>}
             <div className="exp-detail__meta">
-              <span>{active.location}</span>
+              {active.location && <span>{active.location}</span>}
               <span>
-                {formatDate(active.startDate, false)} — {formatDate(active.endDate, active.current)}
-                {active.parallel && <span className="exp-item__parallel"> · en paralelo</span>}
+                {formatDate(active.startDate, false, locale)} — {formatDate(active.endDate, active.current, locale)}
+                {active.parallel && <span className="exp-item__parallel"> · {LABELS[locale].parallel}</span>}
               </span>
             </div>
           </div>
 
-          <p className="exp-detail__desc">{t(active.description, locale)}</p>
+          {t(active.description, locale) && <p className="exp-detail__desc">{t(active.description, locale)}</p>}
 
           {active.highlights && active.highlights.length > 0 && (
             <ul className="exp-detail__highlights">

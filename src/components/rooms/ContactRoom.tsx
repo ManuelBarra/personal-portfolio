@@ -1,12 +1,15 @@
 'use client'
 
 import type { ResumePersonal } from '@/types/resume'
+import { useLocale } from '@/hooks/useLocale'
 
 interface ContactRoomProps {
   personal: ResumePersonal
 }
 
 export function ContactRoom({ personal }: ContactRoomProps) {
+  const { locale } = useLocale()
+  const cvHref = locale === 'en' ? '/cv/Manuel_Barra_Lazo_Resume_2026_EN.pdf' : '/cv/Manuel_Barra_Lazo_CV_2026.pdf'
   const contacts = [
     { label: 'Email', value: personal.email, href: `mailto:${personal.email}` },
     ...(personal.links.github ? [{ label: 'GitHub', value: personal.links.github, href: `https://${personal.links.github}` }] : []),
@@ -38,7 +41,7 @@ export function ContactRoom({ personal }: ContactRoomProps) {
       </div>
 
       <a
-        href="/cv/Manuel_Barra_Lazo_CV_2026.pdf"
+        href={cvHref}
         download
         className="contact-cv-cta"
       >

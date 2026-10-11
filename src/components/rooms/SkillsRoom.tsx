@@ -26,14 +26,6 @@ export function SkillsRoom({ skills }: SkillsRoomProps) {
               {items.map((skill) => (
                 <div key={skill.id} className="skill-block__item">
                   <span>{skill.name}</span>
-                  <div className="skill-block__level">
-                    {Array.from({ length: 5 }, (_, i) => (
-                      <span
-                        key={i}
-                        className={`skill-block__level-dot ${i < skill.level ? 'skill-block__level-dot--filled' : ''}`}
-                      />
-                    ))}
-                  </div>
                 </div>
               ))}
             </div>

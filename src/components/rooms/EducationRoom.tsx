@@ -2,23 +2,22 @@
 
 import type { ResumeEducation, Locale } from '@/types/resume'
 import { useLocale, t } from '@/hooks/useLocale'
+import { formatMonth, PRESENT } from '@/lib/i18n'
 
 interface EducationRoomProps {
   education: ResumeEducation[]
 }
 
-function formatDate(date: string | null, current: boolean): string {
-  if (current || !date) return 'Present'
-  const [year, month] = date.split('-')
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-  return `${months[parseInt(month) - 1]} ${year}`
+function formatDate(date: string | null, current: boolean, locale: Locale): string {
+  if (current || !date) return PRESENT[locale]
+  return formatMonth(date, locale)
 }
 
 function EduCard({ edu, locale }: { edu: ResumeEducation; locale: Locale }) {
   return (
     <div className={`edu-card${edu.status ? ' edu-card--planned' : ''}`}>
       <div className="edu-card__date">
-        {formatDate(edu.startDate, false)} — {formatDate(edu.endDate, edu.current)}
+        {formatDate(edu.startDate, false, locale)} — {formatDate(edu.endDate, edu.current, locale)}
         {edu.status && <span className="edu-card__status">{t(edu.status, locale)}</span>}
       </div>
       <div className="edu-card__institution">{edu.institution}</div>

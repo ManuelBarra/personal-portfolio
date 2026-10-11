@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import resumeData from '@/data/resume.json'
 import type { Resume, Locale } from '@/types/resume'
-import { t } from '@/lib/i18n'
+import { t, formatMonth } from '@/lib/i18n'
 import { CvToolbar } from './CvToolbar'
 import { CvViewportFix } from './CvViewportFix'
 
@@ -54,11 +54,9 @@ function parseLocale(lang: string | undefined): Locale {
   return 'es'
 }
 
-function formatDate(date: string | null, current: boolean, present: string): string {
+function formatDate(date: string | null, current: boolean, present: string, locale: Locale): string {
   if (current || !date) return present
-  const [year, month] = date.split('-')
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-  return `${months[parseInt(month, 10) - 1]} ${year}`
+  return formatMonth(date, locale)
 }
 
 export async function generateMetadata(
@@ -82,7 +80,7 @@ export default async function CvPage(
   const { lang } = await searchParams
   const locale = parseLocale(lang)
   const ui = UI[locale]
-  const { personal, experience, education, skills, projects } = resume
+  const { personal, experience, education, skills } = resume
 
   const completedEdu = education.filter((e) => !e.status)
   const plannedEdu = education.filter((e) => e.status)
@@ -92,8 +90,6 @@ export default async function CvPage(
     acc[skill.category].push(skill.name)
     return acc
   }, {})
-
-  const featuredProjects = projects.filter((p) => p.featured)
 
   const contactLine = [
     personal.location,
@@ -126,16 +122,16 @@ export default async function CvPage(
             <div key={exp.id} className={`cv-doc__entry${exp.type === 'break' ? ' cv-doc__entry--break' : ''}`}>
               <div className="cv-doc__entry-head">
                 <span className="cv-doc__entry-title">
-                  {exp.type === 'break' ? exp.company : `${exp.company} — ${t(exp.position, locale)}`}
+                  {exp.type === 'break' ? t(exp.position, locale) : `${exp.company} — ${t(exp.position, locale)}`}
                   {exp.parallel && <span className="cv-doc__tag"> ({ui.parallel})</span>}
                 </span>
                 <span className="cv-doc__entry-date">
-                  {formatDate(exp.startDate, false, ui.present)} – {formatDate(exp.endDate, exp.current, ui.present)}
+                  {formatDate(exp.startDate, false, ui.present, locale)} – {formatDate(exp.endDate, exp.current, ui.present, locale)}
                 </span>
               </div>
               {exp.type !== 'break' && (
                 <>
-                  <p className="cv-doc__text">{t(exp.description, locale)}</p>
+                  {t(exp.description, locale) && <p className="cv-doc__text">{t(exp.description, locale)}</p>}
                   {exp.highlights && exp.highlights.length > 0 && (
                     <ul className="cv-doc__list">
                       {exp.highlights.map((h, i) => (
@@ -159,7 +155,7 @@ export default async function CvPage(
               <div className="cv-doc__entry-head">
                 <span className="cv-doc__entry-title">{edu.institution} — {t(edu.degree, locale)}</span>
                 <span className="cv-doc__entry-date">
-                  {formatDate(edu.startDate, false, ui.present)} – {formatDate(edu.endDate, edu.current, ui.present)}
+                  {formatDate(edu.startDate, false, ui.present, locale)} – {formatDate(edu.endDate, edu.current, ui.present, locale)}
                 </span>
               </div>
               <p className="cv-doc__text">{t(edu.field, locale)}</p>
@@ -187,20 +183,6 @@ export default async function CvPage(
             <p key={category} className="cv-doc__text">
               <strong>{category}:</strong> {names.join(', ')}
             </p>
-          ))}
-        </section>
-
-        <section className="cv-doc__section">
-          <h2 className="cv-doc__section-title">{ui.projects}</h2>
-          {featuredProjects.map((project) => (
-            <div key={project.id} className="cv-doc__entry">
-              <div className="cv-doc__entry-head">
-                <span className="cv-doc__entry-title">{project.name}</span>
-                {project.url && <span className="cv-doc__entry-date">{project.url.replace(/^https?:\/\//, '')}</span>}
-              </div>
-              <p className="cv-doc__text">{t(project.description, locale)}</p>
-              {project.impact && <p className="cv-doc__tech">{t(project.impact, locale)}</p>}
-            </div>
           ))}
         </section>
 

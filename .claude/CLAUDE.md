@@ -51,7 +51,7 @@ Cargadas vía `next/font/google` en `src/app/layout.tsx`, expuestas como CSS var
 | EducationRoom | `src/components/rooms/EducationRoom.tsx` |
 | SkillsRoom | `src/components/rooms/SkillsRoom.tsx` |
 | ProjectsRoom (galería 3D "coverflow" en CSS, cards en abanico con perspectiva, usa `next/image`) | `src/components/rooms/ProjectsRoom.tsx` |
-| ContactRoom (incluye CTA "Download CV" que enlaza a `/cv`) | `src/components/rooms/ContactRoom.tsx` |
+| ContactRoom (CTA "Download CV" que descarga el PDF LaTeX según idioma) | `src/components/rooms/ContactRoom.tsx` |
 
 HUD (overlay fijo sobre las rooms):
 
@@ -84,10 +84,17 @@ HUD (overlay fijo sobre las rooms):
 | CvToolbar (cliente: selector de idioma + botón `window.print()`) | `src/app/cv/CvToolbar.tsx` |
 | CvViewportFix (cliente: revierte el `overflow: hidden` global de las rooms mientras esta ruta está montada) | `src/app/cv/CvViewportFix.tsx` |
 
+## CV en PDF (LaTeX)
+El botón "Download CV" de ContactRoom descarga un PDF compilado desde LaTeX, no la ruta `/cv`:
+- ES/CA → `public/cv/Manuel_Barra_Lazo_CV_2026.pdf` (fuente `cv-latex/Manuel_Barra_Lazo_CV_ES.tex`)
+- EN → `public/cv/Manuel_Barra_Lazo_Resume_2026_EN.pdf` (fuente `cv-latex/Manuel_Barra_Lazo_CV_EN.tex`)
+Al cambiar `resume.json`, actualiza también los `.tex` y recompila con `pdflatex` (ver `cv-latex/README.md`).
+
 ## Datos del resume
 - Archivo maestro: `src/data/resume.json`
 - Tipos TypeScript: `src/types/resume.ts` (incluye `LocalizedText { es, en }` para todos los campos bilingües)
 - Hook de carga: `src/hooks/useResume.ts` — importa el JSON de forma dinámica, persiste un borrador en `localStorage` (`resume_draft`) y descarta drafts guardados antes de la migración a i18n (guarda por `typeof personal.title === 'object'`)
+- `useResume` solo reutiliza un borrador de `localStorage` si su `metadata.version` coincide con la de `resume.json`: sube la versión al cambiar contenido.
 - Store Zustand: `src/stores/resumeStore.ts` — existe pero no se usa en ningún componente actualmente; la app usa `useResume.ts` directamente
 - i18n:
   - `src/lib/i18n.ts` — función pura `t(text, locale)` que resuelve `LocalizedText`, con fallback `es → en → ''`. Server-safe (sin `'use client'`), pensada para usarse desde Server Components como `cv/page.tsx`

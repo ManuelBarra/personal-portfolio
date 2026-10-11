@@ -36,10 +36,10 @@ const vt323 = VT323({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
+  title: 'Manuel Barra Lazo — Full Stack Developer · Next.js, React & TypeScript',
   description:
-    'Portfolio de Manuel Barra Lazo. Desarrollador Frontend con 5+ años de experiencia en JavaScript, React, Vue y Next.js, que integra IA generativa en el flujo de trabajo de equipos de producto.',
-  keywords: ['Frontend Developer', 'AI Integrator', 'React', 'Next.js', 'Vue.js', 'JavaScript', 'Barcelona'],
+    'Portfolio de Manuel Barra Lazo, desarrollador full stack en Barcelona con 5+ años construyendo producto web con React, Next.js y TypeScript, de portales enterprise para CaixaBank a plataformas propias con IA generativa.',
+  keywords: ['Full Stack Developer', 'Frontend Developer', 'Desarrollador Multiplataforma', 'React', 'Next.js', 'TypeScript', 'Node.js', 'Barcelona'],
   authors: [{ name: 'Manuel Barra Lazo' }],
   creator: 'Manuel Barra Lazo',
   alternates: {
@@ -49,14 +49,14 @@ export const metadata: Metadata = {
     type: 'website',
     url: SITE_URL,
     locale: 'es_ES',
-    title: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
-    description: 'Portfolio interactivo. Frontend moderno con integración real de IA en el flujo de trabajo de producto.',
+    title: 'Manuel Barra Lazo — Full Stack Developer · Next.js, React & TypeScript',
+    description: 'Portfolio interactivo de Manuel Barra Lazo: producto web con React, Next.js y TypeScript, e IA generativa aplicada.',
     siteName: 'Manuel Barra Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Manuel Barra Lazo — Frontend Web Developer & AI Integrator',
-    description: 'Portfolio interactivo. Frontend moderno con integración real de IA en el flujo de trabajo de producto.',
+    title: 'Manuel Barra Lazo — Full Stack Developer · Next.js, React & TypeScript',
+    description: 'Portfolio interactivo de Manuel Barra Lazo: producto web con React, Next.js y TypeScript, e IA generativa aplicada.',
   },
   robots: {
     index: true,

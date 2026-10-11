@@ -7,26 +7,21 @@ export function useResume() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    const draft = localStorage.getItem('resume_draft')
-    if (draft) {
-      try {
-        const parsed = JSON.parse(draft)
-        // Guard against a draft saved before the i18n migration, where
-        // personal.title etc. used to be plain strings instead of {es, en}.
-        if (parsed?.personal && typeof parsed.personal.title === 'object') {
-          setResume(parsed)
-          setLoading(false)
-          return
-        }
-        localStorage.removeItem('resume_draft')
-      } catch {
-        localStorage.removeItem('resume_draft')
-      }
-    }
-
     import('@/data/resume.json')
       .then((data) => {
-        setResume(data.default as Resume)
+        const source = data.default as Resume
+        let draft: Resume | null = null
+        try {
+          const raw = localStorage.getItem('resume_draft')
+          const parsed = raw ? (JSON.parse(raw) as Resume) : null
+          // Only reuse a draft made against the current resume.json version,
+          // so a content update is never hidden behind a stale local copy.
+          if (parsed?.metadata?.version === source.metadata.version) draft = parsed
+          else if (raw) localStorage.removeItem('resume_draft')
+        } catch {
+          try { localStorage.removeItem('resume_draft') } catch { /* storage unavailable */ }
+        }
+        setResume(draft ?? source)
         setLoading(false)
       })
       .catch(() => {
