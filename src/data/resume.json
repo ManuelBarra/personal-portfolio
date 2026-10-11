@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "7.1",
+    "version": "7.2",
     "lastUpdated": "2026-10-11",
     "author": "Manuel Barra Lazo"
   },
@@ -13,34 +13,34 @@
       "ca": "Desenvolupador Full Stack · Next.js, React i TypeScript"
     },
     "tagline": {
-      "es": "Más de 5 años construyendo producto web con React y Next.js, de portales enterprise para CaixaBank a plataformas propias con IA generativa.",
-      "en": "5+ years building web products with React and Next.js, from enterprise portals for CaixaBank to in-house platforms powered by generative AI.",
-      "ca": "Més de 5 anys construint producte web amb React i Next.js, de portals enterprise per a CaixaBank a plataformes pròpies amb IA generativa."
+      "es": "Llevo más de cinco años haciendo producto web con React y Next.js. Ahora construyo plataformas con IA en SADATA.",
+      "en": "I've been building web products with React and Next.js for over five years. These days I build AI-powered platforms at SADATA.",
+      "ca": "Fa més de cinc anys que faig producte web amb React i Next.js. Ara construeixo plataformes amb IA a SADATA."
     },
     "location": "Barcelona, España",
     "avatar": "/avatar.png",
     "email": "manuelbarralazo@gmail.com",
     "phone": "+34 634 008 260",
     "bio": {
-      "es": "Desarrollador full stack con más de 5 años construyendo producto web con React, Next.js y TypeScript, desde portales enterprise para CaixaBank, Roca y Repsol hasta plataformas propias con IA generativa. En Genomcore migré dos webs corporativas de WordPress a Next.js con 100 en todas las categorías de Lighthouse y desplegué un catálogo de skills de IA para el equipo de marketing. Hoy desarrollo producto web y multiplataforma en SADATA mientras curso DAM para sumar Java, Kotlin y Android a mi stack.",
-      "en": "Full stack developer with 5+ years building web products with React, Next.js and TypeScript, from enterprise portals for CaixaBank, Roca and Repsol to in-house platforms powered by generative AI. At Genomcore I migrated two corporate sites from WordPress to Next.js, scoring 100 in every Lighthouse category, and rolled out a catalogue of AI skills for the marketing team. I now build web and cross-platform products at SADATA while studying a Higher Diploma in Cross-Platform App Development (DAM) to add Java, Kotlin and Android to my stack.",
-      "ca": "Desenvolupador full stack amb més de 5 anys construint producte web amb React, Next.js i TypeScript, des de portals enterprise per a CaixaBank, Roca i Repsol fins a plataformes pròpies amb IA generativa. A Genomcore vaig migrar dues webs corporatives de WordPress a Next.js amb 100 a totes les categories de Lighthouse i vaig desplegar un catàleg de skills d'IA per a l'equip de màrqueting. Avui desenvolupo producte web i multiplataforma a SADATA mentre curso DAM per sumar Java, Kotlin i Android al meu stack."
+      "es": "Llevo más de cinco años haciendo producto web con React y Next.js. Empecé en consultoría, con proyectos para CaixaBank, Roca y Repsol, y después pasé a Genomcore, una healthtech, donde llevé sus dos webs de WordPress a Next.js y metí la IA en el día a día del equipo de marketing. Ahora trabajo como desarrollador full stack en SADATA y, en paralelo, estudio DAM para sumar Java, Kotlin y Android.",
+      "en": "I've been building web products with React and Next.js for over five years. I started in consulting, working on projects for CaixaBank, Roca and Repsol, then moved to Genomcore, a healthtech company, where I took their two websites from WordPress to Next.js and brought AI into the marketing team's daily work. I'm now a full stack developer at SADATA, and I'm also studying cross-platform development to add Java, Kotlin and Android.",
+      "ca": "Fa més de cinc anys que faig producte web amb React i Next.js. Vaig començar en consultoria, amb projectes per a CaixaBank, Roca i Repsol, i després vaig passar a Genomcore, una healthtech, on vaig portar les seves dues webs de WordPress a Next.js i vaig ficar la IA en el dia a dia de l'equip de màrqueting. Ara treballo com a desenvolupador full stack a SADATA i, en paral·lel, estudio DAM per sumar Java, Kotlin i Android."
     },
     "about": [
       {
-        "es": "Desarrollador full stack con más de 5 años construyendo producto web con React, Next.js y TypeScript. He trabajado en portales enterprise para CaixaBank, Roca y Repsol, en webs corporativas de healthtech y en plataformas propias con IA generativa.",
-        "en": "Full stack developer with 5+ years building web products with React, Next.js and TypeScript. I've worked on enterprise portals for CaixaBank, Roca and Repsol, on healthtech corporate sites and on in-house platforms powered by generative AI.",
-        "ca": "Desenvolupador full stack amb més de 5 anys construint producte web amb React, Next.js i TypeScript. He treballat en portals enterprise per a CaixaBank, Roca i Repsol, en webs corporatives de healthtech i en plataformes pròpies amb IA generativa."
+        "es": "Me gusta construir webs que van rápido y que la gente disfruta usando. Llevo más de cinco años haciéndolo con React y Next.js.",
+        "en": "I like building websites that are fast and that people enjoy using. I've been doing it with React and Next.js for over five years.",
+        "ca": "M'agrada construir webs que van ràpid i que la gent gaudeix fent servir. Fa més de cinc anys que ho faig amb React i Next.js."
       },
       {
-        "es": "En Genomcore migré genomcore.com y madeofgenes.ai de WordPress a Next.js, con 100 en todas las categorías de Lighthouse, y construí un catálogo de skills de IA que cubre los flujos de trabajo del equipo de marketing.",
-        "en": "At Genomcore I migrated genomcore.com and madeofgenes.ai from WordPress to Next.js, scoring 100 in every Lighthouse category, and built a catalogue of AI skills covering the marketing team's workflows.",
-        "ca": "A Genomcore vaig migrar genomcore.com i madeofgenes.ai de WordPress a Next.js, amb 100 a totes les categories de Lighthouse, i vaig construir un catàleg de skills d'IA que cobreix els fluxos de treball de l'equip de màrqueting."
+        "es": "Empecé en consultoría, en DigitalMakers, con proyectos para CaixaBank, Roca y Repsol. Después pasé a Genomcore, donde llevé sus dos webs de WordPress a Next.js (100 en Lighthouse) y monté un catálogo de skills de IA que le ahorra al equipo de marketing unas 10 horas a la semana.",
+        "en": "I started in consulting at DigitalMakers, working on projects for CaixaBank, Roca and Repsol. Then I moved to Genomcore, where I took their two websites from WordPress to Next.js (100 on Lighthouse) and built a set of AI skills that saves the marketing team around 10 hours a week.",
+        "ca": "Vaig començar en consultoria, a DigitalMakers, amb projectes per a CaixaBank, Roca i Repsol. Després vaig passar a Genomcore, on vaig portar les seves dues webs de WordPress a Next.js (100 a Lighthouse) i vaig muntar un catàleg de skills d'IA que estalvia a l'equip de màrqueting unes 10 hores a la setmana."
       },
       {
-        "es": "Hoy desarrollo producto web y multiplataforma en SADATA, consultora de BI, IA y software con clientes en 5 países, donde estoy terminando Hip Hop 4 Life, nuestra plataforma EdTech con IA. En paralelo curso DAM para sumar Java, Kotlin y Android a mi stack.",
-        "en": "I now build web and cross-platform products at SADATA, a BI, AI and software consultancy with clients in 5 countries, where I'm finishing Hip Hop 4 Life, our AI-powered EdTech platform. In parallel I'm studying DAM (Cross-Platform App Development) to add Java, Kotlin and Android to my stack.",
-        "ca": "Avui desenvolupo producte web i multiplataforma a SADATA, consultora de BI, IA i programari amb clients a 5 països, on estic acabant Hip Hop 4 Life, la nostra plataforma EdTech amb IA. En paral·lel curso DAM per sumar Java, Kotlin i Android al meu stack."
+        "es": "Ahora estoy en SADATA terminando Hip Hop 4 Life, una plataforma para aprender cultura hip hop que junta dos cosas que me encantan: el código y la música. En paralelo estudio DAM en Jobie para sumar Java, Kotlin y Android.",
+        "en": "I'm now at SADATA finishing Hip Hop 4 Life, a platform for learning hip hop culture that brings together two things I love: code and music. I'm also studying cross-platform development at Jobie to add Java, Kotlin and Android.",
+        "ca": "Ara soc a SADATA acabant Hip Hop 4 Life, una plataforma per aprendre cultura hip hop que uneix dues coses que m'encanten: el codi i la música. En paral·lel estudio DAM a Jobie per sumar Java, Kotlin i Android."
       }
     ],
     "links": {
@@ -99,9 +99,9 @@
       "current": true,
       "location": "Barcelona · Remoto",
       "description": {
-        "es": "Consultora de BI, IA y software a medida con sedes en Barcelona y Santiago de Chile y clientes en 5 países. Desarrollo producto web y multiplataforma de principio a fin, para clientes y para productos propios.",
-        "en": "BI, AI and custom software consultancy based in Barcelona and Santiago de Chile, with clients in 5 countries. I build web and cross-platform products end to end, for clients and for in-house products.",
-        "ca": "Consultora de BI, IA i programari a mida amb seus a Barcelona i Santiago de Xile i clients a 5 països. Desenvolupo producte web i multiplataforma de principi a fi, per a clients i per a productes propis."
+        "es": "Consultora de BI, IA y software a medida, con equipo en Barcelona y Santiago de Chile y clientes en 5 países.",
+        "en": "BI, AI and custom software consultancy with a team in Barcelona and Santiago de Chile and clients in 5 countries.",
+        "ca": "Consultora de BI, IA i programari a mida, amb equip a Barcelona i Santiago de Xile i clients a 5 països."
       },
       "technologies": [
         "TypeScript",
@@ -117,19 +117,19 @@
       ],
       "highlights": [
         {
-          "es": "Hip Hop 4 Life (producto propio, en prelanzamiento): plataforma EdTech full stack con Next.js 16, React 19 y TypeScript, Prisma sobre PostgreSQL (Supabase), Auth.js, Stripe y Sentry, con 134 lecciones en 6 disciplinas, progresión gamificada por XP y 55 endpoints de API.",
-          "en": "Hip Hop 4 Life (in-house product, pre-launch): full stack EdTech platform with Next.js 16, React 19 and TypeScript, Prisma on PostgreSQL (Supabase), Auth.js, Stripe and Sentry, with 134 lessons across 6 disciplines, XP-based gamified progression and 55 API endpoints.",
-          "ca": "Hip Hop 4 Life (producte propi, en prellançament): plataforma EdTech full stack amb Next.js 16, React 19 i TypeScript, Prisma sobre PostgreSQL (Supabase), Auth.js, Stripe i Sentry, amb 134 lliçons en 6 disciplines, progressió gamificada per XP i 55 endpoints d'API."
+          "es": "Estoy terminando Hip Hop 4 Life, nuestra plataforma para aprender cultura hip hop: 134 lecciones en 6 disciplinas, progresión por niveles y suscripciones con Stripe. La he construido con Next.js 16, TypeScript, Prisma y PostgreSQL.",
+          "en": "I'm finishing Hip Hop 4 Life, our learning platform for hip hop culture: 134 lessons across 6 disciplines, level-based progression and Stripe subscriptions. Built with Next.js 16, TypeScript, Prisma and PostgreSQL.",
+          "ca": "Estic acabant Hip Hop 4 Life, la nostra plataforma per aprendre cultura hip hop: 134 lliçons en 6 disciplines, progressió per nivells i subscripcions amb Stripe. L'he construïda amb Next.js 16, TypeScript, Prisma i PostgreSQL."
         },
         {
-          "es": "Integré la API de Claude (Anthropic SDK) en un analizador de métrica y rima por verso y en el feedback automático de las prácticas, con limitación de peticiones y sanitización de entradas.",
-          "en": "Integrated the Claude API (Anthropic SDK) into a per-bar syllable and rhyme analyser and into automated practice feedback, with rate limiting and input sanitisation.",
-          "ca": "Vaig integrar l'API de Claude (Anthropic SDK) en un analitzador de mètrica i rima per vers i en el feedback automàtic de les pràctiques, amb limitació de peticions i sanitització d'entrades."
+          "es": "Le añadí IA con la API de Claude: analiza la métrica y la rima de cada verso y da feedback a los alumnos, con límites de uso para evitar abusos.",
+          "en": "Added AI with the Claude API: it analyses the rhythm and rhymes of each verse and gives students feedback, with usage limits to prevent abuse.",
+          "ca": "Hi vaig afegir IA amb l'API de Claude: analitza la mètrica i la rima de cada vers i dona feedback als alumnes, amb límits d'ús per evitar abusos."
         },
         {
-          "es": "BDI, plataforma multi-tenant de email marketing (Reino Unido, jun–ago 2026): redacté el PRD de «Source Contacts» y desarrollé su frontend en React dentro de un equipo MERN, con búsqueda de prospectos por filtros multidimensionales sobre la API de Wiza, enriquecimiento asíncrono y requisitos RGPD.",
-          "en": "BDI, multi-tenant email marketing platform (UK, Jun–Aug 2026): wrote the PRD for “Source Contacts” and built its React frontend within a MERN team, with multi-dimensional prospect search over the Wiza API, asynchronous enrichment and GDPR requirements.",
-          "ca": "BDI, plataforma multi-tenant d'email màrqueting (Regne Unit, jun–ago 2026): vaig redactar el PRD de «Source Contacts» i en vaig desenvolupar el frontend en React dins d'un equip MERN, amb cerca de prospectes per filtres multidimensionals sobre l'API de Wiza, enriquiment asíncron i requisits RGPD."
+          "es": "Para BDI, una plataforma de email marketing de Reino Unido, escribí la especificación de producto de «Source Contacts» y desarrollé su frontend en React (jun–ago 2026).",
+          "en": "For BDI, a UK email marketing platform, I wrote the product spec for “Source Contacts” and built its React frontend (Jun–Aug 2026).",
+          "ca": "Per a BDI, una plataforma d'email màrqueting del Regne Unit, vaig escriure l'especificació de producte de «Source Contacts» i en vaig desenvolupar el frontend en React (jun–ago 2026)."
         }
       ]
     },
@@ -146,9 +146,9 @@
       "current": false,
       "location": "Barcelona",
       "description": {
-        "es": "Healthtech con más de 10 años gestionando datos clínicos y genómicos para hospitales y servicios de salud públicos y privados. Responsable del frontend de genomcore.com y de su plataforma de bienestar, madeofgenes.ai.",
-        "en": "Healthtech company with 10+ years managing clinical and genomic data for public and private hospitals and health services. Owned the frontend of genomcore.com and its wellness platform, madeofgenes.ai.",
-        "ca": "Healthtech amb més de 10 anys gestionant dades clíniques i genòmiques per a hospitals i serveis de salut públics i privats. Responsable del frontend de genomcore.com i de la seva plataforma de benestar, madeofgenes.ai."
+        "es": "Healthtech con más de 10 años trabajando con datos clínicos y genómicos para hospitales y servicios de salud.",
+        "en": "Healthtech company with 10+ years working with clinical and genomic data for hospitals and health services.",
+        "ca": "Healthtech amb més de 10 anys treballant amb dades clíniques i genòmiques per a hospitals i serveis de salut."
       },
       "technologies": [
         "Next.js",
@@ -162,24 +162,24 @@
       ],
       "highlights": [
         {
-          "es": "Lideré la migración de genomcore.com y madeofgenes.ai de WordPress a Next.js con contenido estático en Markdown, alcanzando 100 en las cuatro categorías de Lighthouse (rendimiento, accesibilidad, buenas prácticas y SEO).",
-          "en": "Led the migration of genomcore.com and madeofgenes.ai from WordPress to Next.js with static Markdown content, scoring 100 in all four Lighthouse categories (performance, accessibility, best practices and SEO).",
-          "ca": "Vaig liderar la migració de genomcore.com i madeofgenes.ai de WordPress a Next.js amb contingut estàtic en Markdown, aconseguint 100 a les quatre categories de Lighthouse (rendiment, accessibilitat, bones pràctiques i SEO)."
+          "es": "Migré genomcore.com y madeofgenes.ai de WordPress a Next.js. Las dos webs sacan 100 en las cuatro categorías de Lighthouse.",
+          "en": "Moved genomcore.com and madeofgenes.ai from WordPress to Next.js. Both sites score 100 in all four Lighthouse categories.",
+          "ca": "Vaig migrar genomcore.com i madeofgenes.ai de WordPress a Next.js. Les dues webs treuen 100 a les quatre categories de Lighthouse."
         },
         {
-          "es": "Rediseñé ambos sitios junto a un diseñador, incluido el lanzamiento de la nueva web por el 10.º aniversario de la compañía y la web bilingüe (ES/EN) con tienda de Made of Genes.",
-          "en": "Redesigned both sites alongside a designer, including the launch of the new website for the company's 10th anniversary and Made of Genes' bilingual (ES/EN) site with online store.",
-          "ca": "Vaig redissenyar tots dos llocs juntament amb un dissenyador, inclòs el llançament de la nova web pel 10è aniversari de la companyia i la web bilingüe (ES/EN) amb botiga de Made of Genes."
+          "es": "Rediseñé ambas junto a un diseñador, incluida la web del 10.º aniversario de la empresa.",
+          "en": "Redesigned both with a designer, including the company's 10th-anniversary website.",
+          "ca": "Vaig redissenyar totes dues amb un dissenyador, inclosa la web del 10è aniversari de l'empresa."
         },
         {
-          "es": "Diseñé y construí un catálogo de skills de IA generativa que cubre las necesidades del equipo de marketing (7 personas), distribuido en un marketplace interno, con un ahorro estimado de unas 10 horas semanales.",
-          "en": "Designed and built a catalogue of generative AI skills covering the needs of the 7-person marketing team, distributed through an internal marketplace and saving an estimated 10 hours a week.",
-          "ca": "Vaig dissenyar i construir un catàleg de skills d'IA generativa que cobreix les necessitats de l'equip de màrqueting (7 persones), distribuït en un marketplace intern, amb un estalvi estimat d'unes 10 hores setmanals."
+          "es": "Creé un catálogo de skills de IA para el equipo de marketing (7 personas) que les ahorra unas 10 horas a la semana.",
+          "en": "Built a set of AI skills for the 7-person marketing team that saves them around 10 hours a week.",
+          "ca": "Vaig crear un catàleg de skills d'IA per a l'equip de màrqueting (7 persones) que els estalvia unes 10 hores a la setmana."
         },
         {
-          "es": "Adopté Claude Code como herramienta de desarrollo asistido para acelerar la migración del código heredado.",
-          "en": "Adopted Claude Code as an AI-assisted development tool to speed up the legacy code migration.",
-          "ca": "Vaig adoptar Claude Code com a eina de desenvolupament assistit per accelerar la migració del codi heretat."
+          "es": "Usé Claude Code para acelerar la migración del código antiguo.",
+          "en": "Used Claude Code to speed up the migration of the old codebase.",
+          "ca": "Vaig fer servir Claude Code per accelerar la migració del codi antic."
         }
       ]
     },
@@ -196,9 +196,9 @@
       "current": false,
       "location": "Barcelona",
       "description": {
-        "es": "Consultora digital del grupo Vass. Frontend en proyectos enterprise para CaixaBank, Roca y Repsol sobre Liferay y AEM, en equipos Scrum.",
-        "en": "Digital consultancy within the Vass group. Frontend on enterprise projects for CaixaBank, Roca and Repsol on Liferay and AEM, in Scrum teams.",
-        "ca": "Consultora digital del grup Vass. Frontend en projectes enterprise per a CaixaBank, Roca i Repsol sobre Liferay i AEM, en equips Scrum."
+        "es": "Consultora digital del grupo Vass. Proyectos enterprise para CaixaBank, Roca y Repsol sobre Liferay y AEM, en equipos Scrum.",
+        "en": "Digital consultancy within the Vass group. Enterprise projects for CaixaBank, Roca and Repsol on Liferay and AEM, in Scrum teams.",
+        "ca": "Consultora digital del grup Vass. Projectes enterprise per a CaixaBank, Roca i Repsol sobre Liferay i AEM, en equips Scrum."
       },
       "technologies": [
         "JavaScript",
@@ -213,19 +213,19 @@
       ],
       "highlights": [
         {
-          "es": "Construí de principio a fin el frontend de AgroBank Hub (CaixaBank): agenda de eventos, casos de innovación, categorías filtrables, tienda e informes sectoriales, alimentados por APIs REST.",
-          "en": "Built the AgroBank Hub (CaixaBank) frontend end to end: events calendar, innovation cases, filterable categories, store and sector reports, all fed by REST APIs.",
-          "ca": "Vaig construir de principi a fi el frontend d'AgroBank Hub (CaixaBank): agenda d'esdeveniments, casos d'innovació, categories filtrables, botiga i informes sectorials, alimentats per APIs REST."
+          "es": "Me encargué de todo el frontend de AgroBank Hub (CaixaBank): agenda de eventos, casos de innovación, tienda e informes, todo conectado a APIs REST.",
+          "en": "Owned the whole AgroBank Hub (CaixaBank) frontend: events calendar, innovation cases, store and reports, all connected to REST APIs.",
+          "ca": "Em vaig encarregar de tot el frontend d'AgroBank Hub (CaixaBank): agenda d'esdeveniments, casos d'innovació, botiga i informes, tot connectat a APIs REST."
         },
         {
-          "es": "Desarrollé y mantuve los portales corporativos de CaixaBank (Talks, Banca Privada, Banca Premier y Wealth Management Luxembourg) y sus versiones en 6 países: componentes dinámicos, filtros de resultados y temas.",
-          "en": "Developed and maintained CaixaBank's corporate portals (Talks, Private Banking, Premier Banking and Wealth Management Luxembourg) and their versions in 6 countries: dynamic components, result filters and themes.",
-          "ca": "Vaig desenvolupar i mantenir els portals corporatius de CaixaBank (Talks, Banca Privada, Banca Premier i Wealth Management Luxembourg) i les seves versions a 6 països: components dinàmics, filtres de resultats i temes."
+          "es": "Desarrollé y mantuve los portales de CaixaBank (Talks, Banca Privada, Banca Premier y Wealth Management) y sus versiones en 6 países.",
+          "en": "Built and maintained CaixaBank's corporate portals (Talks, Private Banking, Premier Banking and Wealth Management) and their versions in 6 countries.",
+          "ca": "Vaig desenvolupar i mantenir els portals de CaixaBank (Talks, Banca Privada, Banca Premier i Wealth Management) i les seves versions a 6 països."
         },
         {
-          "es": "Frontend de Roca.es y Guía Repsol, desde la maquetación responsive hasta la resolución de incidencias en producción.",
-          "en": "Frontend for Roca.es and Guía Repsol, from responsive layout to fixing production incidents.",
-          "ca": "Frontend de Roca.es i Guía Repsol, des de la maquetació responsive fins a la resolució d'incidències en producció."
+          "es": "Trabajé en el frontend de Roca.es y Guía Repsol, desde la maquetación hasta las incidencias en producción.",
+          "en": "Worked on the Roca.es and Guía Repsol frontends, from layout to production fixes.",
+          "ca": "Vaig treballar en el frontend de Roca.es i Guía Repsol, des de la maquetació fins a les incidències en producció."
         }
       ]
     },
@@ -234,9 +234,9 @@
       "company": "",
       "type": "break",
       "position": {
-        "es": "Pausa profesional (viaje)",
-        "en": "Career break (travel)",
-        "ca": "Pausa professional (viatge)"
+        "es": "Pausa profesional para viajar",
+        "en": "Career break to travel",
+        "ca": "Pausa professional per viatjar"
       },
       "startDate": "2024-07",
       "endDate": "2024-12",
@@ -262,9 +262,9 @@
       "current": false,
       "location": "Barcelona",
       "description": {
-        "es": "Agencia digital para el mercado inmobiliario de EE. UU. Trabajo íntegramente en inglés.",
-        "en": "Digital agency serving the US real estate market. Worked entirely in English.",
-        "ca": "Agència digital per al mercat immobiliari dels EUA. Feina íntegrament en anglès."
+        "es": "Agencia digital para el mercado inmobiliario de EE. UU. Trabajaba en inglés.",
+        "en": "Digital agency for the US real estate market. I worked in English.",
+        "ca": "Agència digital per al mercat immobiliari dels EUA. Treballava en anglès."
       },
       "technologies": [
         "JavaScript",
@@ -276,14 +276,14 @@
       ],
       "highlights": [
         {
-          "es": "Construí The Abbey Company de principio a fin: buscador de propiedades en Vue.js con filtros combinables y vistas de mapa, cuadrícula y lista, módulo de vacantes y dashboard de estadísticas.",
-          "en": "Built The Abbey Company end to end: Vue.js property search with combinable filters and map, grid and list views, a vacancies module and a stats dashboard.",
-          "ca": "Vaig construir The Abbey Company de principi a fi: cercador de propietats en Vue.js amb filtres combinables i vistes de mapa, graella i llista, mòdul de vacants i tauler d'estadístiques."
+          "es": "Construí entera la web de The Abbey Company, con un buscador de propiedades en Vue.js (filtros, mapa, cuadrícula y lista), vacantes y estadísticas.",
+          "en": "Built the whole The Abbey Company website, including a Vue.js property search (filters, map, grid and list views), job listings and stats.",
+          "ca": "Vaig construir sencera la web de The Abbey Company, amb un cercador de propietats en Vue.js (filtres, mapa, graella i llista), vacants i estadístiques."
         },
         {
-          "es": "Desarrollé temas y Custom Post Types de WordPress a medida para The Multifamily Firm y H&R Retail.",
-          "en": "Developed custom WordPress themes and Custom Post Types for The Multifamily Firm and H&R Retail.",
-          "ca": "Vaig desenvolupar temes i Custom Post Types de WordPress a mida per a The Multifamily Firm i H&R Retail."
+          "es": "Hice temas de WordPress a medida para The Multifamily Firm y H&R Retail, dos inmobiliarias de EE. UU.",
+          "en": "Made custom WordPress themes for The Multifamily Firm and H&R Retail, two US real estate firms.",
+          "ca": "Vaig fer temes de WordPress a mida per a The Multifamily Firm i H&R Retail, dues immobiliàries dels EUA."
         }
       ]
     },
@@ -301,9 +301,9 @@
       "parallel": true,
       "location": "Priorat · Remoto",
       "description": {
-        "es": "Grupo de bodegas del Priorat con webs multi-idioma (ES/EN/CA) y tienda online.",
-        "en": "Priorat winery group with multilingual (ES/EN/CA) websites and online store.",
-        "ca": "Grup de cellers del Priorat amb webs multiidioma (ES/EN/CA) i botiga en línia."
+        "es": "Grupo de bodegas del Priorat con webs en tres idiomas y tienda online.",
+        "en": "Priorat winery group with websites in three languages and an online store.",
+        "ca": "Grup de cellers del Priorat amb webs en tres idiomes i botiga en línia."
       },
       "technologies": [
         "Next.js",
@@ -314,14 +314,14 @@
       ],
       "highlights": [
         {
-          "es": "Responsable técnico de los tres sitios desde 2020: hosting, base de datos, seguridad y SEO.",
-          "en": "Technical owner of all three sites since 2020: hosting, database, security and SEO.",
-          "ca": "Responsable tècnic dels tres llocs des del 2020: hosting, base de dades, seguretat i SEO."
+          "es": "Desde 2020 me ocupo de sus webs: hosting, seguridad y SEO.",
+          "en": "Since 2020 I've looked after their websites: hosting, security and SEO.",
+          "ca": "Des del 2020 m'ocupo de les seves webs: hosting, seguretat i SEO."
         },
         {
-          "es": "Migración en curso de los tres sitios de WordPress a Next.js con generación estática (SSG) para mejorar rendimiento y seguridad.",
-          "en": "Ongoing migration of all three sites from WordPress to Next.js with static site generation (SSG) for better performance and security.",
-          "ca": "Migració en curs dels tres llocs de WordPress a Next.js amb generació estàtica (SSG) per millorar rendiment i seguretat."
+          "es": "Ahora las estoy pasando de WordPress a Next.js para que vayan más rápido y sean más seguras.",
+          "en": "I'm now moving them from WordPress to Next.js so they're faster and more secure.",
+          "ca": "Ara les estic passant de WordPress a Next.js perquè vagin més ràpid i siguin més segures."
         }
       ]
     }
